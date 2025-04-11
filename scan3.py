@@ -1501,4 +1501,5 @@ class Scanner:
                                 request_data={"url": url, "method": "GET"},
                                 response_data={}
                             )
-             
+        except requests.exceptions.RequestException as e:
+            print(f"[!] Error fetching {self.target.url}: {e}")     
