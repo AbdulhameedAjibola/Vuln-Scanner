@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSecScanner Report - {{ target.url }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #444; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; }
+        th { background-color: #f5f5f5; }
+        .severity-High { background-color: #ffe0e0; }
+        .severity-Medium { background-color: #fff3cd; }
+        .severity-Low { background-color: #d1ecf1; }
+        .severity-Informational { background-color: #e2e3e5; }
+    </style>
+</head>
+<body>
+    <h1>WebSecScanner Vulnerability Report</h1>
+    <p><strong>Target:</strong> {{ target.url }}</p>
+    <p><strong>Scan Date:</strong> {{ date }}</p>
+    
+    {% if vulnerabilities %}
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Severity</th>
+                <th>Description</th>
+                <th>Evidence</th>
+                <th>Remediation</th>
+                <th>CWE</th>
+                <th>CVSS</th>
+            </tr>
+            {% for vuln in vulnerabilities %}
+            <tr class="severity-{{ vuln.severity }}">
+                <td>{{ loop.index }}</td>
+                <td>{{ vuln.name }}</td>
+                <td>{{ vuln.severity }}</td>
+                <td>{{ vuln.description }}</td>
+                <td>{{ vuln.evidence }}</td>
+                <td>{{ vuln.remediation }}</td>
+                <td>{{ vuln.cwe_id or '' }}</td>
+                <td>{{ vuln.cvss_score or '' }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No vulnerabilities were detected.</p>
+    {% endif %}
+</body>
+</html>

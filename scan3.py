@@ -1502,4 +1502,31 @@ class Scanner:
                                 response_data={}
                             )
         except requests.exceptions.RequestException as e:
-            print(f"[!] Error fetching {self.target.url}: {e}")     
+            print(f"[!] Error fetching {self.target.url}: {e}")  
+            
+    def _generate_reports(self):
+        """Generate HTML report using Jinja2 template."""
+        try:
+            # Load template
+            template_loader = jinja2.FileSystemLoader(searchpath=".")
+            env = jinja2.Environment(loader=template_loader)
+            template = env.get_template("report_template.html")
+
+            # Render HTML with context
+            html_report = template.render(
+                target=self.target,
+                vulnerabilities=[v.to_dict() for v in self.vulnerabilities],
+                date=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            )
+
+            # Save report to file
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            report_path = os.path.join(self.output_dir, f"scan-{timestamp}.html")
+            with open(report_path, "w", encoding="utf-8") as f:
+                f.write(html_report)
+
+            logger.info(f"Report generated: {report_path}")
+        
+        except Exception as e:
+            logger.error(f"Failed to generate report: {e}")
+   
