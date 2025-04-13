@@ -5,10 +5,10 @@ if __name__ == "__main__":
     try:
         
         scanner = Scanner(
-            target_url="http://localhost:3000/#/",  
+            target_url="https://www.mdx.ac.uk/",  
             verbose=True,
             output_dir="reports",
-            
+            depth=50
         )
 
         

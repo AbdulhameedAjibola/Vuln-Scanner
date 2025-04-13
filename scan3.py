@@ -298,7 +298,7 @@ class Scanner:
         self._print_summary()
     
     async def _perform_reconnaissance(self, progress, task_id):
-        """Gather initial information about the target."""
+        
         logger.info("Starting reconnaissance phase")
         
         # Initial connection to get server info
@@ -321,7 +321,6 @@ class Scanner:
         progress.update(task_id, completed=True, description="[cyan]Reconnaissance completed")
     
     async def _gather_server_info(self):
-        """Collect basic information about the target server."""
         try:
             response = self.session.get(
                 self.target.url, 
@@ -355,7 +354,6 @@ class Scanner:
             logger.error(f"Error gathering server information: {e}")
     
     async def _detect_technologies(self):
-        """Detect technologies used by the target website."""
         try:
             response = self.session.get(
                 self.target.url, 
@@ -423,7 +421,6 @@ class Scanner:
             logger.error(f"Error detecting technologies: {e}")
     
     async def _scan_common_ports(self):
-        """Scan common ports on the target server."""
         if not self.target.ip:
             logger.warning("IP address not resolved, skipping port scan")
             return
@@ -431,7 +428,6 @@ class Scanner:
         # List of common ports to scan
         common_ports = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 993, 995, 1723, 3306, 3389, 5900, 8080, 8443]
         open_ports = []
-        
         # Use asyncio for faster port scanning
         async def scan_port(port):
             try:
@@ -456,9 +452,7 @@ class Scanner:
         logger.info(f"Open ports: {self.target.open_ports}")
     
     async def _enumerate_subdomains(self):
-        """Enumerate subdomains of the target domain."""
         subdomains = set()
-        
         # Use DNS resolution to find subdomains
         try:
             # Common subdomain prefixes
@@ -488,11 +482,9 @@ class Scanner:
     async def _crawl_website(self, progress, task_id):
         """Crawl the website to discover endpoints and forms."""
         logger.info("Starting website crawling")
-        
         # Initialize crawl variables
         to_visit = {self.target.url}
         
-
         visited = set()
         current_depth = 0
         

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSecScanner Report - https://www.mdx.ac.uk/</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #444; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; }
+        th { background-color: #f5f5f5; }
+        .severity-High { background-color: red; }
+        .severity-Medium { background-color: yellow; }
+        .severity-Low { background-color: greenyellow; }
+        .severity-Critical { background-color: darkred;  }
+        .severity-Informational { background-color: #e2e3e5; }
+    </style>
+</head>
+<body>
+    <h1>WebSecScanner Vulnerability Report</h1>
+    <p><strong>Target:</strong> https://www.mdx.ac.uk/</p>
+    <p><strong>Scan Date:</strong> 2025-04-13 20:44:24</p>
+    
+    
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Severity</th>
+                <th>Description</th>
+                <th>Evidence</th>
+                <th>Remediation</th>
+                <th>CWE</th>
+                <th>CVSS</th>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>1</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>2</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'newid' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>3</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>4</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>5</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>6</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseSubject' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>7</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStartYear' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>8</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter '__VIEWSTATE' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>9</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>10</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>11</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>12</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseSubject' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>13</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStartYear' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>14</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>15</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>16</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>17</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseSubject' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>18</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStartYear' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>19</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter '__EVENTVALIDATION' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>20</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>21</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>22</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>23</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseSubject' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>24</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStartYear' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>25</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>26</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>27</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>28</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>29</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseSubject' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>30</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStartYear' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>31</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>32</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter '__VIEWSTATE' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>33</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'keywords' might be vulnerable to SQL injection with payload: ' OR '1'='1</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>34</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>35</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter '__EVENTVALIDATION' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>36</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in form input.</td>
+                <td>Form parameter '__EVENTVALIDATION' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>37</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'page' might be vulnerable to SQL injection with payload: " OR ""="</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>38</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'page' might be vulnerable to SQL injection with payload: " OR ""="</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>39</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'courseStudyType' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>40</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'name' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>41</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'cat' might be vulnerable to SQL injection with payload: '; WAITFOR DELAY '0:0:5' --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>42</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'name' might be vulnerable to SQL injection with payload: ' UNION SELECT username, password, 3 FROM users --</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Critical">
+                <td>43</td>
+                <td>SQL Injection</td>
+                <td>Critical</td>
+                <td>Potential SQL Injection vulnerability detected in URL parameter.</td>
+                <td>URL parameter 'page' might be vulnerable to SQL injection with payload: " OR ""="</td>
+                <td>Use parameterized queries, prepared statements, or ORMs. Implement input validation and use least privilege database accounts.</td>
+                <td>CWE-89</td>
+                <td>8.5</td>
+            </tr>
+            
+            <tr class="severity-Medium">
+                <td>44</td>
+                <td>Missing Content-Security-Policy Header</td>
+                <td>Medium</td>
+                <td>Content Security Policy (CSP) header is missing.</td>
+                <td>The Content-Security-Policy header is not set in the HTTP response.</td>
+                <td>Implement a Content Security Policy to help prevent XSS and data injection attacks.</td>
+                <td>CWE-693</td>
+                <td>5.0</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>45</td>
+                <td>Missing Permissions-Policy Header</td>
+                <td>Low</td>
+                <td>Permissions-Policy header is missing.</td>
+                <td>The Permissions-Policy header is not set in the HTTP response.</td>
+                <td>Implement Permissions-Policy to control which browser features can be used.</td>
+                <td>CWE-693</td>
+                <td>3.0</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>46</td>
+                <td>Information Disclosure in HTTP Headers</td>
+                <td>Low</td>
+                <td>The Server header reveals information about the server technology.</td>
+                <td>Server: Apache</td>
+                <td>Remove or modify the Server header to prevent information disclosure.</td>
+                <td>CWE-200</td>
+                <td>3.5</td>
+            </tr>
+            
+            <tr class="severity-Medium">
+                <td>47</td>
+                <td>Cookie Without Secure Flag</td>
+                <td>Medium</td>
+                <td>The cookie 'AWSALB' is not set with the Secure flag.</td>
+                <td>Cookie: AWSALB</td>
+                <td>Set the Secure flag on all cookies to ensure they are only sent over HTTPS connections.</td>
+                <td>CWE-614</td>
+                <td>5.0</td>
+            </tr>
+            
+            <tr class="severity-Medium">
+                <td>48</td>
+                <td>Cookie Without HttpOnly Flag</td>
+                <td>Medium</td>
+                <td>The cookie 'AWSALB' is not set with the HttpOnly flag.</td>
+                <td>Cookie: AWSALB</td>
+                <td>Set the HttpOnly flag on cookies to prevent client-side scripts from accessing them.</td>
+                <td>CWE-1004</td>
+                <td>4.5</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>49</td>
+                <td>Cookie Without SameSite Attribute</td>
+                <td>Low</td>
+                <td>The cookie 'AWSALB' is not set with a SameSite attribute.</td>
+                <td>Cookie: AWSALB</td>
+                <td>Set the SameSite attribute (Lax or Strict) on cookies to prevent CSRF attacks.</td>
+                <td>CWE-352</td>
+                <td>3.5</td>
+            </tr>
+            
+            <tr class="severity-Medium">
+                <td>50</td>
+                <td>Cookie Without HttpOnly Flag</td>
+                <td>Medium</td>
+                <td>The cookie 'AWSALBCORS' is not set with the HttpOnly flag.</td>
+                <td>Cookie: AWSALBCORS</td>
+                <td>Set the HttpOnly flag on cookies to prevent client-side scripts from accessing them.</td>
+                <td>CWE-1004</td>
+                <td>4.5</td>
+            </tr>
+            
+        </table>
+    
+</body>
+</html>

