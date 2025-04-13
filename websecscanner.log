@@ -1,0 +1,26 @@
+2025-04-13 05:10:49,819 - WebSecScanner - INFO - Scanner initialized for target: www.dupe.com
+2025-04-13 05:10:49,827 - WebSecScanner - INFO - Starting scan of www.dupe.com
+2025-04-13 05:10:49,860 - WebSecScanner - INFO - Starting reconnaissance phase
+2025-04-13 05:10:49,861 - WebSecScanner - ERROR - Error gathering server information: Invalid URL 'www.dupe.com': No scheme supplied. Perhaps you meant https://www.dupe.com?
+2025-04-13 05:10:49,861 - WebSecScanner - ERROR - Error detecting technologies: Invalid URL 'www.dupe.com': No scheme supplied. Perhaps you meant https://www.dupe.com?
+2025-04-13 05:10:49,861 - WebSecScanner - WARNING - IP address not resolved, skipping port scan
+2025-04-13 05:10:49,880 - WebSecScanner - ERROR - Error enumerating subdomains: label empty or too long
+2025-04-13 05:10:49,880 - WebSecScanner - INFO - Found 0 subdomains
+2025-04-13 05:10:49,899 - WebSecScanner - INFO - Starting website crawling
+2025-04-13 05:10:55,419 - WebSecScanner - INFO - [Crawl] Visiting: www.dupe.com
+2025-04-13 05:10:55,446 - WebSecScanner - DEBUG - Error JS crawling www.dupe.com: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+Call log:
+  - navigating to "www.dupe.com", waiting until "networkidle"
+
+2025-04-13 05:10:56,844 - WebSecScanner - INFO - Crawling completed. Found 1 endpoints and 0 forms
+2025-04-13 05:10:56,852 - WebSecScanner - INFO - Starting security scans
+2025-04-13 05:10:56,856 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
+2025-04-13 05:10:56,857 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
+2025-04-13 05:10:56,861 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
+2025-04-13 05:10:56,871 - WebSecScanner - INFO - Scanning security headers
+2025-04-13 05:10:56,882 - WebSecScanner - ERROR - Error scanning security headers: Invalid URL 'www.dupe.com': No scheme supplied. Perhaps you meant https://www.dupe.com?
+2025-04-13 05:10:56,887 - WebSecScanner - INFO - Scanning session security
+2025-04-13 05:10:56,913 - WebSecScanner - INFO - Security scans completed
+2025-04-13 05:10:56,928 - WebSecScanner - INFO - Report generated: reports\scan-20250413_051056.html
+2025-04-13 05:10:56,928 - WebSecScanner - INFO - Scan completed in 7.10 seconds
+2025-04-13 05:10:56,928 - WebSecScanner - INFO - Found 0 vulnerabilities
