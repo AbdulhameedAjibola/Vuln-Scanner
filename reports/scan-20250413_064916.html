@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSecScanner Report - https://tesmidesign.com/</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #444; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; }
+        th { background-color: #f5f5f5; }
+        .severity-High { background-color: #ffe0e0; }
+        .severity-Medium { background-color: #fff3cd; }
+        .severity-Low { background-color: #d1ecf1; }
+        .severity-Informational { background-color: #e2e3e5; }
+    </style>
+</head>
+<body>
+    <h1>WebSecScanner Vulnerability Report</h1>
+    <p><strong>Target:</strong> https://tesmidesign.com/</p>
+    <p><strong>Scan Date:</strong> 2025-04-13 06:49:16</p>
+    
+    
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Severity</th>
+                <th>Description</th>
+                <th>Evidence</th>
+                <th>Remediation</th>
+                <th>CWE</th>
+                <th>CVSS</th>
+            </tr>
+            
+            <tr class="severity-Medium">
+                <td>1</td>
+                <td>Missing Content-Security-Policy Header</td>
+                <td>Medium</td>
+                <td>Content Security Policy (CSP) header is missing.</td>
+                <td>The Content-Security-Policy header is not set in the HTTP response.</td>
+                <td>Implement a Content Security Policy to help prevent XSS and data injection attacks.</td>
+                <td>CWE-693</td>
+                <td>5.0</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>2</td>
+                <td>Missing X-XSS-Protection Header</td>
+                <td>Low</td>
+                <td>X-XSS-Protection header is missing.</td>
+                <td>The X-XSS-Protection header is not set in the HTTP response.</td>
+                <td>Set X-XSS-Protection header to '1; mode=block' to enable browser's XSS filtering.</td>
+                <td>CWE-693</td>
+                <td>3.5</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>3</td>
+                <td>Missing X-Content-Type-Options Header</td>
+                <td>Low</td>
+                <td>X-Content-Type-Options header is missing.</td>
+                <td>The X-Content-Type-Options header is not set in the HTTP response.</td>
+                <td>Set X-Content-Type-Options header to 'nosniff' to prevent MIME type sniffing.</td>
+                <td>CWE-693</td>
+                <td>3.5</td>
+            </tr>
+            
+            <tr class="severity-Medium">
+                <td>4</td>
+                <td>Missing X-Frame-Options Header</td>
+                <td>Medium</td>
+                <td>X-Frame-Options header is missing.</td>
+                <td>The X-Frame-Options header is not set in the HTTP response.</td>
+                <td>Set X-Frame-Options header to 'DENY' or 'SAMEORIGIN' to prevent clickjacking attacks.</td>
+                <td>CWE-693</td>
+                <td>4.5</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>5</td>
+                <td>Missing Referrer-Policy Header</td>
+                <td>Low</td>
+                <td>Referrer-Policy header is missing.</td>
+                <td>The Referrer-Policy header is not set in the HTTP response.</td>
+                <td>Set a Referrer-Policy to control how much referrer information is included with requests.</td>
+                <td>CWE-200</td>
+                <td>3.0</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>6</td>
+                <td>Missing Permissions-Policy Header</td>
+                <td>Low</td>
+                <td>Permissions-Policy header is missing.</td>
+                <td>The Permissions-Policy header is not set in the HTTP response.</td>
+                <td>Implement Permissions-Policy to control which browser features can be used.</td>
+                <td>CWE-693</td>
+                <td>3.0</td>
+            </tr>
+            
+            <tr class="severity-Low">
+                <td>7</td>
+                <td>Information Disclosure in HTTP Headers</td>
+                <td>Low</td>
+                <td>The Server header reveals information about the server technology.</td>
+                <td>Server: Vercel</td>
+                <td>Remove or modify the Server header to prevent information disclosure.</td>
+                <td>CWE-200</td>
+                <td>3.5</td>
+            </tr>
+            
+        </table>
+    
+</body>
+</html>

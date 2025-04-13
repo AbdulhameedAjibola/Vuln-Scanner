@@ -1,26 +1,163 @@
-2025-04-13 05:10:49,819 - WebSecScanner - INFO - Scanner initialized for target: www.dupe.com
-2025-04-13 05:10:49,827 - WebSecScanner - INFO - Starting scan of www.dupe.com
-2025-04-13 05:10:49,860 - WebSecScanner - INFO - Starting reconnaissance phase
-2025-04-13 05:10:49,861 - WebSecScanner - ERROR - Error gathering server information: Invalid URL 'www.dupe.com': No scheme supplied. Perhaps you meant https://www.dupe.com?
-2025-04-13 05:10:49,861 - WebSecScanner - ERROR - Error detecting technologies: Invalid URL 'www.dupe.com': No scheme supplied. Perhaps you meant https://www.dupe.com?
-2025-04-13 05:10:49,861 - WebSecScanner - WARNING - IP address not resolved, skipping port scan
-2025-04-13 05:10:49,880 - WebSecScanner - ERROR - Error enumerating subdomains: label empty or too long
-2025-04-13 05:10:49,880 - WebSecScanner - INFO - Found 0 subdomains
-2025-04-13 05:10:49,899 - WebSecScanner - INFO - Starting website crawling
-2025-04-13 05:10:55,419 - WebSecScanner - INFO - [Crawl] Visiting: www.dupe.com
-2025-04-13 05:10:55,446 - WebSecScanner - DEBUG - Error JS crawling www.dupe.com: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+2025-04-13 06:45:11,958 - WebSecScanner - INFO - Scanner initialized for target: https://tesmidesign.com/
+2025-04-13 06:45:11,961 - WebSecScanner - INFO - Starting scan of https://tesmidesign.com/
+2025-04-13 06:45:11,963 - WebSecScanner - INFO - Starting reconnaissance phase
+2025-04-13 06:45:12,917 - WebSecScanner - INFO - Resolved IP: 76.76.21.241
+2025-04-13 06:45:12,918 - WebSecScanner - INFO - Server info: {'Server': 'Vercel'}
+2025-04-13 06:45:13,017 - WebSecScanner - INFO - Detected technologies: ['Vercel']
+2025-04-13 06:45:15,024 - WebSecScanner - INFO - Open ports: [25, 80, 110, 143, 443, 993, 995]
+2025-04-13 06:45:15,110 - WebSecScanner - DEBUG - Found subdomain: www.tesmidesign.com
+2025-04-13 06:45:15,326 - WebSecScanner - DEBUG - Found subdomain: mail.tesmidesign.com
+2025-04-13 06:45:15,580 - WebSecScanner - DEBUG - Found subdomain: ftp.tesmidesign.com
+2025-04-13 06:45:15,839 - WebSecScanner - DEBUG - Found subdomain: smtp.tesmidesign.com
+2025-04-13 06:45:16,016 - WebSecScanner - DEBUG - Found subdomain: pop.tesmidesign.com
+2025-04-13 06:45:16,216 - WebSecScanner - DEBUG - Found subdomain: ns1.tesmidesign.com
+2025-04-13 06:45:16,483 - WebSecScanner - DEBUG - Found subdomain: ns2.tesmidesign.com
+2025-04-13 06:45:16,689 - WebSecScanner - DEBUG - Found subdomain: dns.tesmidesign.com
+2025-04-13 06:45:16,916 - WebSecScanner - DEBUG - Found subdomain: dns1.tesmidesign.com
+2025-04-13 06:45:17,133 - WebSecScanner - DEBUG - Found subdomain: dns2.tesmidesign.com
+2025-04-13 06:45:17,383 - WebSecScanner - DEBUG - Found subdomain: mx.tesmidesign.com
+2025-04-13 06:45:17,596 - WebSecScanner - DEBUG - Found subdomain: mx1.tesmidesign.com
+2025-04-13 06:45:17,809 - WebSecScanner - DEBUG - Found subdomain: mx2.tesmidesign.com
+2025-04-13 06:45:17,992 - WebSecScanner - DEBUG - Found subdomain: webmail.tesmidesign.com
+2025-04-13 06:45:18,186 - WebSecScanner - DEBUG - Found subdomain: remote.tesmidesign.com
+2025-04-13 06:45:18,403 - WebSecScanner - DEBUG - Found subdomain: blog.tesmidesign.com
+2025-04-13 06:45:18,632 - WebSecScanner - DEBUG - Found subdomain: server.tesmidesign.com
+2025-04-13 06:45:18,766 - WebSecScanner - DEBUG - Found subdomain: admin.tesmidesign.com
+2025-04-13 06:45:18,982 - WebSecScanner - DEBUG - Found subdomain: vpn.tesmidesign.com
+2025-04-13 06:45:19,237 - WebSecScanner - DEBUG - Found subdomain: dev.tesmidesign.com
+2025-04-13 06:45:19,458 - WebSecScanner - DEBUG - Found subdomain: test.tesmidesign.com
+2025-04-13 06:45:19,713 - WebSecScanner - DEBUG - Found subdomain: portal.tesmidesign.com
+2025-04-13 06:45:19,946 - WebSecScanner - DEBUG - Found subdomain: api.tesmidesign.com
+2025-04-13 06:45:20,140 - WebSecScanner - DEBUG - Found subdomain: uat.tesmidesign.com
+2025-04-13 06:45:20,328 - WebSecScanner - DEBUG - Found subdomain: stage.tesmidesign.com
+2025-04-13 06:45:20,506 - WebSecScanner - DEBUG - Found subdomain: staging.tesmidesign.com
+2025-04-13 06:45:20,765 - WebSecScanner - DEBUG - Found subdomain: shop.tesmidesign.com
+2025-04-13 06:45:20,998 - WebSecScanner - DEBUG - Found subdomain: store.tesmidesign.com
+2025-04-13 06:45:21,196 - WebSecScanner - DEBUG - Found subdomain: support.tesmidesign.com
+2025-04-13 06:45:21,446 - WebSecScanner - DEBUG - Found subdomain: help.tesmidesign.com
+2025-04-13 06:45:21,646 - WebSecScanner - DEBUG - Found subdomain: apps.tesmidesign.com
+2025-04-13 06:45:21,906 - WebSecScanner - DEBUG - Found subdomain: app.tesmidesign.com
+2025-04-13 06:45:22,123 - WebSecScanner - DEBUG - Found subdomain: m.tesmidesign.com
+2025-04-13 06:45:22,338 - WebSecScanner - DEBUG - Found subdomain: mobile.tesmidesign.com
+2025-04-13 06:45:22,572 - WebSecScanner - DEBUG - Found subdomain: files.tesmidesign.com
+2025-04-13 06:45:22,817 - WebSecScanner - DEBUG - Found subdomain: forms.tesmidesign.com
+2025-04-13 06:45:22,826 - WebSecScanner - INFO - Found 36 subdomains
+2025-04-13 06:45:22,826 - WebSecScanner - INFO - Starting website crawling
+2025-04-13 06:45:23,681 - WebSecScanner - INFO - [Crawl] Visiting: https://tesmidesign.com/
+2025-04-13 06:45:33,476 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/login
+2025-04-13 06:45:35,903 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe127f6812840f992109
+2025-04-13 06:46:05,912 - WebSecScanner - DEBUG - Error JS crawling https://www.tesmidesign.com/products/6769fe127f6812840f992109: Page.goto: Timeout 30000ms exceeded.
 Call log:
-  - navigating to "www.dupe.com", waiting until "networkidle"
+  - navigating to "https://www.tesmidesign.com/products/6769fe127f6812840f992109", waiting until "networkidle"
 
-2025-04-13 05:10:56,844 - WebSecScanner - INFO - Crawling completed. Found 1 endpoints and 0 forms
-2025-04-13 05:10:56,852 - WebSecScanner - INFO - Starting security scans
-2025-04-13 05:10:56,856 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
-2025-04-13 05:10:56,857 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
-2025-04-13 05:10:56,861 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
-2025-04-13 05:10:56,871 - WebSecScanner - INFO - Scanning security headers
-2025-04-13 05:10:56,882 - WebSecScanner - ERROR - Error scanning security headers: Invalid URL 'www.dupe.com': No scheme supplied. Perhaps you meant https://www.dupe.com?
-2025-04-13 05:10:56,887 - WebSecScanner - INFO - Scanning session security
-2025-04-13 05:10:56,913 - WebSecScanner - INFO - Security scans completed
-2025-04-13 05:10:56,928 - WebSecScanner - INFO - Report generated: reports\scan-20250413_051056.html
-2025-04-13 05:10:56,928 - WebSecScanner - INFO - Scan completed in 7.10 seconds
-2025-04-13 05:10:56,928 - WebSecScanner - INFO - Found 0 vulnerabilities
+2025-04-13 06:46:05,912 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/
+2025-04-13 06:46:08,067 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe137f6812840f99210e
+2025-04-13 06:46:20,006 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe147f6812840f992113
+2025-04-13 06:46:31,828 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/cart
+2025-04-13 06:46:33,328 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe167f6812840f99211d
+2025-04-13 06:46:45,177 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe157f6812840f992118
+2025-04-13 06:46:57,198 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe177f6812840f992122
+2025-04-13 06:47:09,116 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe087f6812840f9920fa
+2025-04-13 06:47:39,131 - WebSecScanner - DEBUG - Error JS crawling https://www.tesmidesign.com/products/6769fe087f6812840f9920fa: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.tesmidesign.com/products/6769fe087f6812840f9920fa", waiting until "networkidle"
+
+2025-04-13 06:47:39,133 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/productlist
+2025-04-13 06:47:41,192 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe067f6812840f9920f5
+2025-04-13 06:47:53,127 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe117f6812840f992104
+2025-04-13 06:48:05,106 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe107f6812840f9920ff
+2025-04-13 06:48:16,928 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe427f6812840f992136
+2025-04-13 06:48:28,805 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe437f6812840f99213b
+2025-04-13 06:48:40,635 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe1a7f6812840f99212c
+2025-04-13 06:48:52,435 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe197f6812840f992127
+2025-04-13 06:49:04,345 - WebSecScanner - INFO - [Crawl] Visiting: https://www.tesmidesign.com/products/6769fe1b7f6812840f992131
+2025-04-13 06:49:16,507 - WebSecScanner - INFO - Crawling completed. Found 20 endpoints and 34 forms
+2025-04-13 06:49:16,509 - WebSecScanner - INFO - Starting security scans
+2025-04-13 06:49:16,509 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
+2025-04-13 06:49:16,514 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
+2025-04-13 06:49:16,515 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
+2025-04-13 06:49:16,515 - WebSecScanner - INFO - Scanning security headers
+2025-04-13 06:49:16,620 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at https://tesmidesign.com/
+2025-04-13 06:49:16,620 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-XSS-Protection Header at https://tesmidesign.com/
+2025-04-13 06:49:16,620 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-Content-Type-Options Header at https://tesmidesign.com/
+2025-04-13 06:49:16,623 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-Frame-Options Header at https://tesmidesign.com/
+2025-04-13 06:49:16,624 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Referrer-Policy Header at https://tesmidesign.com/
+2025-04-13 06:49:16,624 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at https://tesmidesign.com/
+2025-04-13 06:49:16,624 - WebSecScanner - INFO - [+] Vulnerability recorded: Information Disclosure in HTTP Headers at https://tesmidesign.com/
+2025-04-13 06:49:16,625 - WebSecScanner - INFO - Scanning session security
+2025-04-13 06:49:16,714 - WebSecScanner - INFO - Security scans completed
+2025-04-13 06:49:16,731 - WebSecScanner - INFO - Report generated: reports\scan-20250413_064916.html
+2025-04-13 06:49:16,732 - WebSecScanner - INFO - Scan completed in 244.77 seconds
+2025-04-13 06:49:16,733 - WebSecScanner - INFO - Found 7 vulnerabilities
+2025-04-13 07:01:16,436 - WebSecScanner - INFO - Scanner initialized for target: http://localhost:3000/#/
+2025-04-13 07:01:16,436 - WebSecScanner - INFO - Starting scan of http://localhost:3000/#/
+2025-04-13 07:01:16,440 - WebSecScanner - INFO - Starting reconnaissance phase
+2025-04-13 07:01:16,459 - WebSecScanner - WARNING - Could not resolve hostname: localhost:3000
+2025-04-13 07:01:16,460 - WebSecScanner - INFO - Server info: {}
+2025-04-13 07:01:16,470 - WebSecScanner - INFO - Detected technologies: ['jquery']
+2025-04-13 07:01:16,471 - WebSecScanner - WARNING - IP address not resolved, skipping port scan
+2025-04-13 07:01:17,377 - WebSecScanner - INFO - Found 0 subdomains
+2025-04-13 07:01:17,380 - WebSecScanner - INFO - Starting website crawling
+2025-04-13 07:01:18,212 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/
+2025-04-13 07:01:22,724 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/about
+2025-04-13 07:01:23,302 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop
+2025-04-13 07:01:27,535 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/ftp/legal.md
+2025-04-13 07:01:28,647 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/login
+2025-04-13 07:01:30,186 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/photo-wall
+2025-04-13 07:01:30,725 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/contact
+2025-04-13 07:01:31,291 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/register
+2025-04-13 07:01:31,841 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/
+2025-04-13 07:01:33,267 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/forgot-password
+2025-04-13 07:01:33,880 - WebSecScanner - INFO - Crawling completed. Found 10 endpoints and 3 forms
+2025-04-13 07:01:33,883 - WebSecScanner - INFO - Starting security scans
+2025-04-13 07:01:33,883 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
+2025-04-13 07:01:49,440 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
+2025-04-13 07:02:35,927 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at http://localhost:3000/redirect?to=%27%3B+WAITFOR+DELAY+%270%3A0%3A5%27+--
+2025-04-13 07:02:35,929 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
+2025-04-13 07:02:35,929 - WebSecScanner - INFO - Scanning security headers
+2025-04-13 07:02:35,936 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at http://localhost:3000/#/
+2025-04-13 07:02:35,936 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-XSS-Protection Header at http://localhost:3000/#/
+2025-04-13 07:02:35,936 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Strict-Transport-Security Header at http://localhost:3000/#/
+2025-04-13 07:02:35,941 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Referrer-Policy Header at http://localhost:3000/#/
+2025-04-13 07:02:35,942 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at http://localhost:3000/#/
+2025-04-13 07:02:35,943 - WebSecScanner - INFO - Scanning session security
+2025-04-13 07:02:35,951 - WebSecScanner - INFO - Security scans completed
+2025-04-13 07:02:35,963 - WebSecScanner - INFO - Report generated: reports\scan-20250413_070235.html
+2025-04-13 07:02:35,964 - WebSecScanner - INFO - Scan completed in 79.53 seconds
+2025-04-13 07:02:35,964 - WebSecScanner - INFO - Found 6 vulnerabilities
+2025-04-13 07:05:39,009 - WebSecScanner - INFO - Scanner initialized for target: http://localhost:3000/#/
+2025-04-13 07:05:39,009 - WebSecScanner - INFO - Starting scan of http://localhost:3000/#/
+2025-04-13 07:05:39,015 - WebSecScanner - INFO - Starting reconnaissance phase
+2025-04-13 07:05:39,029 - WebSecScanner - WARNING - Could not resolve hostname: localhost:3000
+2025-04-13 07:05:39,029 - WebSecScanner - INFO - Server info: {}
+2025-04-13 07:05:39,037 - WebSecScanner - INFO - Detected technologies: ['jquery']
+2025-04-13 07:05:39,038 - WebSecScanner - WARNING - IP address not resolved, skipping port scan
+2025-04-13 07:05:39,940 - WebSecScanner - INFO - Found 0 subdomains
+2025-04-13 07:05:39,943 - WebSecScanner - INFO - Starting website crawling
+2025-04-13 07:05:40,675 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/
+2025-04-13 07:05:42,351 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/login
+2025-04-13 07:05:42,929 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop
+2025-04-13 07:05:46,425 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/contact
+2025-04-13 07:05:48,011 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/photo-wall
+2025-04-13 07:05:48,564 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/about
+2025-04-13 07:05:49,135 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/register
+2025-04-13 07:05:49,701 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/#/forgot-password
+2025-04-13 07:05:50,241 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/
+2025-04-13 07:05:51,674 - WebSecScanner - INFO - [Crawl] Visiting: http://localhost:3000/ftp/legal.md
+2025-04-13 07:05:52,809 - WebSecScanner - INFO - Crawling completed. Found 10 endpoints and 3 forms
+2025-04-13 07:05:52,813 - WebSecScanner - INFO - Starting security scans
+2025-04-13 07:05:52,813 - WebSecScanner - INFO - Scanning for XSS vulnerabilities
+2025-04-13 07:06:08,488 - WebSecScanner - INFO - Scanning for SQL Injection vulnerabilities
+2025-04-13 07:06:55,000 - WebSecScanner - INFO - [+] Vulnerability recorded: SQL Injection at http://localhost:3000/redirect?to=%27%3B+WAITFOR+DELAY+%270%3A0%3A5%27+--
+2025-04-13 07:06:55,002 - WebSecScanner - INFO - Scanning for CSRF vulnerabilities
+2025-04-13 07:06:55,002 - WebSecScanner - INFO - Scanning security headers
+2025-04-13 07:06:55,007 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Content-Security-Policy Header at http://localhost:3000/#/
+2025-04-13 07:06:55,007 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing X-XSS-Protection Header at http://localhost:3000/#/
+2025-04-13 07:06:55,010 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Strict-Transport-Security Header at http://localhost:3000/#/
+2025-04-13 07:06:55,010 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Referrer-Policy Header at http://localhost:3000/#/
+2025-04-13 07:06:55,010 - WebSecScanner - INFO - [+] Vulnerability recorded: Missing Permissions-Policy Header at http://localhost:3000/#/
+2025-04-13 07:06:55,011 - WebSecScanner - INFO - Scanning session security
+2025-04-13 07:06:55,016 - WebSecScanner - INFO - Security scans completed
+2025-04-13 07:06:55,030 - WebSecScanner - INFO - Report generated: reports\scan-20250413_070655.html
+2025-04-13 07:06:55,031 - WebSecScanner - INFO - Scan completed in 76.02 seconds
+2025-04-13 07:06:55,031 - WebSecScanner - INFO - Found 6 vulnerabilities

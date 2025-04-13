@@ -200,7 +200,7 @@ class Scanner:
         logger.info(f"Scanner initialized for target: {target_url}")
     
     def _load_payloads(self) -> Dict:
-        """Load predefined and custom payloads for various vulnerability tests."""
+        
         return {
             "xss": [
                 "<script>alert('XSS')</script>",
@@ -1471,7 +1471,7 @@ class Scanner:
 
 
     def _generate_reports(self):
-        """Generate HTML report using Jinja2 template."""
+        
         try:
             # Load template
             template_loader = jinja2.FileSystemLoader(searchpath=".")
